@@ -6,13 +6,13 @@
 
 #ConnectionString information
 # You can get 'source' and 'database name' variables from the CONFIGS in TAS or from the database in SQL Server Management Studio (SSMS)
-$server = "TAS-sql-kons" # Data source 
-$db = "TAS_KONS_10" # Database name'
+$server = "TAS-SHS-SQLT00\CU1234" # Data server 
+$db = "CU1234_Customer_TAS_ENV" # Database name
 
 #ConnectionString
 
 #With user ID and password
-#$connectionstring = "Data Source=$server;Initial Catalog=$db;Integrated Security=false;User Id = adm1; Password=mgetmk"
+#$connectionstring = "Data Source=$server;Initial Catalog=$db;Integrated Security=false;User Id = none; Password=none"
 
 #Windows authentication
 $connectionstring = "Data Source=$server;Initial Catalog=$db;Integrated Security=true;"
@@ -20,8 +20,8 @@ $connectionstring = "Data Source=$server;Initial Catalog=$db;Integrated Security
 $maxCharLength = 2147483647 #Invoking a sqlcmd has a Default char length limit of 4000 characters(It doesnt get everything). So, put the limit to 
 ######################################################################################################
 
-$RegelsætName = '' # The name of the regelsæt you want to transfer
+$RegelsætName = 'Regelsæt navn eksempel' # The name of the regelsæt you want to transfer
 
-$ordning = 'INVKF' #Ordningen du vil arbejde med.
+$ordning = 'EXMPL' #Ordningen du vil arbejde med.
 
 ######################################################################################################

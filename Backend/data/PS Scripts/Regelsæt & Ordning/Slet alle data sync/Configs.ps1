@@ -6,8 +6,8 @@
 
 #ConnectionString information
 # You can get 'server' and 'database name' variables from the CONFIGS in TAS or from the database in SQL Server Management Studio (SSMS)
-$server = "BSMSOSSQL01T.prod.sitad.dk\TASTest" # Data server 
-$db = "TASTestDB" # Database name'
+$server = "TAS-SHS-SQLT00\CU1234" # Data server 
+$db = "CU1234_Customer_TAS_ENV" # Database name
 
 #ConnectionString
 
@@ -24,9 +24,9 @@ $list_regelsaet = @("'Udbetalingssager T5'","'Ansøgningsrunder og Løse ansøgn
 
 ##RegelsætName and Ordning shouldn't be used for this scripts
 
-$RegelsætName = '' # The name of the regelsæt you want to transfer
+$RegelsætName = 'Regelsæt navne eksempel' # The name of the regelsæt you want to transfer
 
-$ordning = '' #Ordningen du vil arbejde med.
+$ordning = 'EXMPL' #Ordningen du vil arbejde med.
 
 ######################################################################################################
 

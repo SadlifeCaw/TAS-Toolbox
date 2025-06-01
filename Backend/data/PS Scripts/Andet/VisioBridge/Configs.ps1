@@ -1,1 +1,1 @@
-$FilePath =  "C:\Users\Casper.Skourup\Downloads\VisioTest.vsdx"
+$FilePath =  "C:\example\path"

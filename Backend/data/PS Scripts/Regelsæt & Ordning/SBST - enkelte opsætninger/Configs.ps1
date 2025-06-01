@@ -6,13 +6,13 @@
 
 #ConnectionString information
 # You can get 'server' and 'database name' variables from the CONFIGS in TAS or from the database in SQL Server Management Studio (SSMS)
-$server = "bsm-sos-sql01p\TASPROD" # Data server 
-$db = "TASProdDB" # Database name'
+$server = "TAS-SHS-SQLT00\CU1234" # Data server 
+$db = "CU1234_Customer_TAS_ENV" # Database name
 
 #ConnectionString
 
 #With user ID and password
-#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = adm1; Password=mgetmk"
+#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = none; Password=none"
 
 #Windows authentication
 $connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=true;"
@@ -22,11 +22,11 @@ $maxCharLength = 999999999 #Invoking a sqlcmd has a Default char length limit of
 
 $ordning_forsystem_ids = @(1471746,1471747) -join ',' #specific ordning_forsystem ids will want to retrieve/transfer
 
-$list_regelsaet = @("'Ansøgningsrunder og Løse ansøgninger T5'") -join ','
+$list_regelsaet = @("'Regelsæt navne eksempel 1', 'Regelsæt navne eksempel2'") -join ','
 
-$RegelsætName = '' # The name of the regelsæt you want to transfer
+$RegelsætName = 'Regelsæt navne eksempel 3' # The name of the regelsæt you want to transfer
 
-$ordning = 'MASTER1' #Ordningen du vil arbejde med.
+$ordning = 'EXMPL' #Ordningen du vil arbejde med.
 
 ######################################################################################################
 

@@ -7,12 +7,12 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "CU4004_FST_TAS_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQLT01\\CU4004 # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -24,12 +24,12 @@
                           {
                               "name":  "$Database",
                               "type":  "string",
-                              "example":  "CU2303_ENS_TAS_TEST"
+                              "example":  "CU2303_CUSTOMER_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$SqlServer",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQLT01\\CU2303"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           },
                           {
                               "name":  "$StoredProcedureName",
@@ -45,7 +45,7 @@
         "variables":  {
                           "name":  "$FilePath",
                           "type":  "string",
-                          "example":  "C:\\Users\\Casper.Skourup\\Downloads\\VisioTest.vsdx"
+                          "example":  "C:\\example\\path"
                       }
     },
     {
@@ -56,7 +56,7 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TAS_STANDARD_100_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$ordning",
@@ -66,12 +66,12 @@
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  "Forsøgsvindmøller på Land - FPL # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navne eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-DB-2019 # Data source"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -83,22 +83,22 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TAS_KONS_10 # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  "INVKF #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  " # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navn eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-sql-kons # Data source"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -110,17 +110,17 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TASProdDB # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$list_regelsaet",
                               "type":  "array",
-                              "example":  "@(Ansøgningsrunder og Løse ansøgninger T5)"
+                              "example":  "@(Regelsæt navne eksempel 1, Regelsæt navne eksempel2)"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  "MASTER1 #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$ordning_forsystem_ids",
@@ -130,12 +130,12 @@
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  " # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navne eksempel 3 # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "bsm-sos-sql01p\\TASPROD # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -147,7 +147,7 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TASTestDB # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$list_regelsaet",
@@ -157,17 +157,17 @@
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  " #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  " # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navne eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "BSMSOSSQL01T.prod.sitad.dk\\TASTest # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -179,27 +179,27 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TASTestDB # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  " #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$ordning_forsystem_ids",
-                              "type":  "string",
-                              "example":  "@(1519882"
+                              "type":  "array",
+                              "example":  "@(1519882,1519881,1519880,1519879)"
                           },
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  " # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navne eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "BSMSOSSQL01T.prod.sitad.dk\\TASTest # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -211,32 +211,32 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TASTestDB3_MASTER # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$InitialFra",
                               "type":  "string",
-                              "example":  "ANS9 #Det initial der ændres fra"
+                              "example":  "EXMPL1 #Det initial der ændres fra"
                           },
                           {
                               "name":  "$InitialTil",
                               "type":  "string",
-                              "example":  "ANS9BU #Det initial der ændres til"
+                              "example":  "EXMPL2 #Det initial der ændres til"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  " #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  "Ansøgningsrunder og Løse ansøgninger T9 # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navn eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "tas-db-2019 # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -248,7 +248,7 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "CU2823_STAR_TAS_Test # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$frontSystemIds",
@@ -256,9 +256,9 @@
                               "example":  "@(226, 224, 223)"
                           },
                           {
-                              "name":  "$source",
+                              "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQL01 # Data source"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -270,17 +270,17 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "CU2303_ENS_TAS_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$frontSystemIds",
                               "type":  "array",
-                              "example":  "@(226, 224, 223)"
+                              "example":  "@(001, 002, 003)"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQLT01\\CU2303 # Data source"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -292,12 +292,12 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "CU4004_FST_TAS_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQLT01\\CU4004 # Data source"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           },
                           {
                               "name":  "$ViewGroup",
@@ -314,17 +314,17 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "FST_82_TIL_91_PREPROD_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$frontSystemIds",
                               "type":  "array",
-                              "example":  "@(502)"
+                              "example":  "@(001,002,003)"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "tas-db # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -336,17 +336,17 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TAS_STANDARD_MASTER_CM_TOOL_FROM # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$frontSystemIds",
                               "type":  "array",
-                              "example":  "@(454,541,529,637,543,499,504,512,459,514)"
+                              "example":  "@(001,002,003)"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-DB-2019 # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -358,22 +358,22 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "CU2303_ENS_TAS_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  "GRL"
+                              "example":  "EXMPL #Ordningskode"
                           },
                           {
                               "name":  "$projektType",
                               "type":  "string",
-                              "example":  "GRL # If the word settings is for ALL project types, then the variable should be empty ."
+                              "example":  "PROJEKT1 # If the word settings is for ALL project types, then the variable should be empty ."
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "TAS-SHS-SQLT01\\CU2303 # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -385,22 +385,22 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TAS_STANDARD_91_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$list_doc_ids",
                               "type":  "array",
-                              "example":  "@(4233)"
+                              "example":  "@(0001,0002,0003)"
                           },
                           {
                               "name":  "$projektType",
                               "type":  "string",
-                              "example":  " # If the word settings is for ALL project types, then the variable should be empty ."
+                              "example":  "PROJEKT1 # If the word settings is for ALL project types, then the variable should be empty ."
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "tas-db-2019 # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           }
                       ]
     },
@@ -412,27 +412,27 @@
                           {
                               "name":  "$db",
                               "type":  "string",
-                              "example":  "TAS_STANDARD_82_TEST # Database name"
+                              "example":  "CU1234_Customer_TAS_ENV # Database name"
                           },
                           {
                               "name":  "$ordning",
                               "type":  "string",
-                              "example":  "XNEALTRANS #Ordningen du vil arbejde med."
+                              "example":  "EXMPL #Ordningen du vil arbejde med."
                           },
                           {
                               "name":  "$RegelsætName",
                               "type":  "string",
-                              "example":  " # The name of the regelsæt you want to transfer"
+                              "example":  "Regelsæt navne eksempel # The name of the regelsæt you want to transfer"
                           },
                           {
                               "name":  "$server",
                               "type":  "string",
-                              "example":  "tas-db.internal.formpipe.se # Data server"
+                              "example":  "TAS-SHS-SQLT00\\CU1234 # Data server"
                           },
                           {
                               "name":  "$Status_initials",
                               "type":  "string",
-                              "example":  " #Initials for the status you want to transfer. Try to make sure the initial doesnt overlab with others. Fx. BY and BYP. The SQL query will get both."
+                              "example":  "EXMPL001 #Initials for the status you want to transfer. Try to make sure the initial doesnt overlab with others. Fx. BY and BYP. The SQL query will get both."
                           }
                       ]
     }

@@ -6,13 +6,13 @@
 
 #ConnectionString information
 # You can get 'server' and 'database name' variables from the CONFIGS in TAS or from the database in SQL Server Management Studio (SSMS)
-$server = "tas-db-2019" # Data server 
-$db = "TAS_STANDARD_91_TEST" # Database name'
+$server = "TAS-SHS-SQLT00\CU1234" # Data server 
+$db = "CU1234_Customer_TAS_ENV" # Database name
 
 #ConnectionString
 
 #With user ID and password
-#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = adm1; Password=mgetmk"
+#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = none; Password=none"
 
 #Windows authentication
 $connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=true;"
@@ -22,9 +22,9 @@ $maxCharLength = 2147483647 #Invoking a sqlcmd has a Default char length limit o
 ######################################################################################################
 
 ####################################
-$projektType = '' # If the word settings is for ALL project types, then the variable should be empty ''.
+$projektType = 'PROJEKT1' # If the word settings is for ALL project types, then the variable should be empty ''.
 ####################################
 
-$list_doc_ids = @(4233) -join ',' #List of doc ids 
+$list_doc_ids = @(0001,0002,0003) -join ',' #List of doc ids 
 
 ######################################################################################################

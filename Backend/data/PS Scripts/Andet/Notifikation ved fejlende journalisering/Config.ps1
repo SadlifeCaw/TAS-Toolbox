@@ -1,4 +1,4 @@
 # ==== DATABASE CONFIGURATION ====
-$SqlServer = "TAS-SHS-SQLT01\CU2303"
-$Database = "CU2303_ENS_TAS_TEST"
+$SqlServer = "TAS-SHS-SQLT00\CU1234" # Data server 
+$Database = "CU2303_CUSTOMER_TAS_ENV" # Database name
 $StoredProcedureName = "sp_indsendNotifikation"

@@ -6,13 +6,13 @@
 
 #ConnectionString information
 # You can get 'server' and 'database name' variables from the CONFIGS in TAS or from the database in SQL Server Management Studio (SSMS)
-$server = "TAS-SHS-SQLT01\CU4004" # Data server 
-$db = "CU4004_FST_TAS_TEST" # Database name'
+$server = "TAS-SHS-SQLT00\CU1234" # Data server 
+$db = "CU1234_Customer_TAS_ENV" # Database name'
 
 #ConnectionString
 
 #With user ID and password
-#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = SB1; Password=SB1"
+#$connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=false;User Id = None; Password= None"
 
 #Windows authentication
 $connectionstring = "Data server=$server;Initial Catalog=$db;Integrated Security=true;"

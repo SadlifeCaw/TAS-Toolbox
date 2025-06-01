@@ -1,7 +1,8 @@
 // app/api/sqlfiles/route.ts
 import { NextRequest, NextResponse } from 'next/server';
-import { join, relative } from 'path';
+import { join, relative, normalize } from 'path';
 import { existsSync, readFileSync } from 'fs';
+import { basename } from 'path';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -12,13 +13,11 @@ export async function GET(req: NextRequest) {
   }
 
   const decodedPath = decodeURIComponent(fileParam);
-
   const ROOT_DIR = join(process.cwd(), 'Backend', 'data');
-  const normalizedPath = decodedPath.replace(/\//g, '\\');
-  const fullPath = join(ROOT_DIR, normalizedPath);
+  const fullPath = normalize(join(ROOT_DIR, decodedPath));
 
-  const relativePath = relative(ROOT_DIR, fullPath);
-  if (relativePath.startsWith('..') || relativePath.startsWith('/') || relativePath.startsWith('\\')) {
+  // Safer security check
+  if (!fullPath.startsWith(ROOT_DIR)) {
     return NextResponse.json({ error: 'Access denied' }, { status: 403 });
   }
 
@@ -31,6 +30,7 @@ export async function GET(req: NextRequest) {
     status: 200,
     headers: {
       'Content-Type': 'text/plain',
+      'Content-Disposition': `attachment; filename="${basename(fullPath)}"`,
     },
   });
 }

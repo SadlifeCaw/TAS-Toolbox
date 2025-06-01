@@ -1,0 +1,49 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220628093940
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 34060
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-06-28.09.39.40.txt
+Ordning name is empty
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+PYR000 - Ny sag - PYR
+PYR001 - Indsendt - PYR
+PYR002 - Klar til SB - PYR
+PYR004 - Projektafslag - PYR
+PYR005 - Vurderet - PYR
+PYR007 - I gang - PYR
+PYR011 - Sag slut - PYR
+PYR013 - Projektaftaledokumenter - PYR
+PYR014 - Projekt under afslutning - PYR
+PYR016 - Direkte afslag - PYR
+PYR018 - Tilsagn ikke accepteret - PYR
+PYR020 - Ansøgning trukket tilbage - PYR
+PYR022 - Afv godk. af tjekliste - udb. - PYR
+PYR024 - Afv godk. af tjekliste - spct - PYR
+PYR025 - Afv godk. af tjekliste - udb. slut - PYR
+XAL - Fejl i overførsel til Navision
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 16 Status'
+SQL connection Closed
+**********************
+Windows PowerShell transcript end
+End time: 20220628093941
+**********************

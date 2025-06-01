@@ -1,0 +1,250 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220628095809
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 34060
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-06-28.09.58.09.txt
+Ordning name is empty
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+TEST000 - Ny sag - TEST
+TEST001 - Indsendt - TEST
+TEST002 - Klar til SB - TEST
+TEST004 - Projektafslag - TEST
+TEST005 - Vurderet - TEST
+TEST007 - I gang - TEST
+TEST011 - Sag slut - TEST
+TEST013 - Projektaftaledokumenter - TEST
+TEST014 - Projekt under afslutning - TEST
+TEST016 - Direkte afslag - TEST
+TEST018 - Tilsagn ikke accepteret - TEST
+TEST020 - Ansøgning trukket tilbage - TEST
+TEST022 - Afv godk. af tjekliste - udb. - TEST
+TEST024 - Afv godk. af tjekliste - spct - TEST
+TEST025 - Afv godk. af tjekliste - udb. slut - TEST
+XAL - Fejl i overførsel til Navision
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 16 Status'
+SQL connection Closed
+Ordning name is empty
+###############
+Get-Activities
+###############
+Retrieved the Activities:
+DS_JOB_ERR - Datasynk job fejlet
+TEST001 - Ansøgning indsendt - TEST
+TEST002 - Ansøgning oprettet - TEST
+TEST003 - Klar til sagsbehandling - TEST
+TEST004 - Ansøgning trukket tilbage - TEST
+TEST005 - Luk grunddata - TEST
+TEST006 - Ansøger har rettet sin ansøgning - TEST
+TEST007 - Direkte afslag - TEST
+TEST008 - Materiale til sagkyndig - TEST
+TEST009 - Stamblad - Direkte afslag - TEST
+TEST010 - Hent grunddata fra portal - TEST
+TEST011 - Samlet ansøgning PDF - TEST
+TEST012 - Flet ansøgningsdokumenter - TEST
+TEST013 - Sagkyndig vurdering 1 - TEST
+TEST014 - Sagkyndig vurdering 2 - TEST
+TEST015 - Sagkyndig vurdering 3 - TEST
+TEST016 - Sagkyndig vurdering 4 - TEST
+TEST017 - Sagkyndig vurdering 5 - TEST
+TEST018 - Sagkyndig vurdering 6 - TEST
+TEST020 - Alle vurderinger modtaget - TEST
+TEST021 - Partshøring Udvælgelse - TEST
+TEST022 - Sagkyndiges vurderinger til Sagkyndige - TEST
+TEST023 - Partshøring PDF alle vurderinger - TEST
+TEST024 - Parthøringssvar - TEST
+TEST025 - Opret parthøringsbrev - TEST
+TEST026 - Afslagsbrev - TEST
+TEST027 - Tjekliste støtteprocent - TEST
+TEST028 - Tjekliste støtteprocent godkendt - TEST
+TEST029 - Tilsagnsbrev - TEST
+TEST030 - Modtaget accept af tilsagn - TEST
+TEST032 - Modtagelse af tilsagnsbilag - TEST
+TEST033 - Vilkår for tilsagn - TEST
+TEST034 - Alle dokumenter modtaget - TEST
+TEST035 - Betinget tilsagn ikke accepteret - TEST
+TEST037 - Rykker manglende oplysninger - TEST
+TEST038 - Nedskrivning - TEST
+TEST039 - Afslutningspåmindelse - TEST
+TEST040 - Modtagelse af Projektinformationsskema - TEST
+TEST041 - Udbetaling udland - TEST
+TEST042 - Indbetaling - TEST
+TEST043 - Ændringsanmodning modtaget - TEST
+TEST044 - Ændringsanmodning afslået - TEST
+TEST045 - Ændringsanmodning godkendt - TEST
+TEST046 - Modtagelse af årsrapport - TEST
+TEST047 - Tillægstilsagn - TEST
+TEST048 - Budgetændring godkendt - TEST
+TEST049 - Budgetændring afslået - TEST
+TEST050 - Klar til afslutning - TEST
+TEST051 - Udbetalingsanmodning modtaget - TEST
+TEST052 - Tjekliste udbetaling - TEST
+TEST053 - Modtagelse af slutrapport - TEST
+TEST054 - Slutstamblad - TEST
+TEST055 - Udbetalingsanmodning modtaget slut - TEST
+TEST056 - Tjekliste udbetaling slut - TEST
+TEST057 - Modtagelse af slutregnskab - TEST
+TEST059 - Afslut sag - TEST
+TEST060 - Udbetaling indland - TEST
+TEST061 - Post ind - TEST
+TEST062 - Post ud - TEST
+TEST063 - Note - FB - TEST
+TEST064 - Stamblad - TEST
+TEST065 - Modtagelse af samarbejdsaftale - TEST
+Created Activities.csv file
+Retrieved 62 Activities
+
+ Outputs exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+Ordning name is empty
+###############
+Get-StatusNeuralActivities
+###############
+SQL connection is successufull
+Query executed
+Retrieved 6 Status neutral activities
+DS_JOB_ERR
+TEST005
+TEST061
+TEST062
+TEST063
+TEST064
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+Ordning name is empty
+###############
+Get-ActivitySecurities
+###############
+SQL connection is successufull
+Query executed
+Output Template in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved Security permission
+DS_JOB_ERR PORTAL_USER
+DS_JOB_ERR Sagsbehand
+DS_JOB_ERR TAS
+3 Security Permissions
+SQL connection Closed
+Ordning name is empty
+###############
+Get-MuligStatus
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+TEST000
+TEST001
+TEST002
+TEST004
+TEST005
+TEST007
+TEST011
+TEST013
+TEST014
+TEST016
+TEST018
+TEST020
+TEST022
+TEST024
+TEST025
+XAL
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+16 Status'
+Query executed
+TEST001 - TEST000 - TEST001
+TEST001 - TEST001 - TEST001
+TEST002 - TEST000 - TEST000
+TEST002 - TEST020 - TEST020
+TEST003 - TEST001 - TEST002
+TEST004 - TEST000 - TEST020
+TEST004 - TEST001 - TEST020
+TEST004 - TEST002 - TEST020
+TEST004 - TEST005 - TEST020
+TEST005 - TEST001 - TEST001
+TEST006 - TEST001 - TEST001
+TEST007 - TEST002 - TEST016
+TEST008 - TEST002 - TEST002
+TEST009 - TEST002 - TEST002
+TEST010 - TEST002 - TEST002
+TEST011 - TEST002 - TEST002
+TEST012 - TEST002 - TEST002
+TEST013 - TEST002 - TEST002
+TEST014 - TEST002 - TEST002
+TEST015 - TEST002 - TEST002
+TEST016 - TEST002 - TEST002
+TEST017 - TEST002 - TEST002
+TEST018 - TEST002 - TEST002
+TEST020 - TEST002 - TEST005
+TEST021 - TEST005 - TEST005
+TEST022 - TEST005 - TEST005
+TEST023 - TEST005 - TEST005
+TEST024 - TEST005 - TEST005
+TEST025 - TEST005 - TEST005
+TEST026 - TEST005 - TEST004
+TEST027 - TEST005 - TEST024
+TEST028 - TEST024 - TEST005
+TEST029 - TEST005 - TEST013
+TEST030 - TEST013 - TEST013
+TEST032 - TEST013 - TEST013
+TEST033 - TEST013 - TEST013
+TEST034 - TEST013 - TEST007
+TEST035 - TEST013 - TEST018
+TEST037 - TEST007 - TEST007
+TEST038 - TEST007 - TEST007
+TEST038 - TEST014 - TEST014
+TEST039 - TEST007 - TEST007
+TEST040 - TEST013 - TEST013
+TEST041 - TEST007 - TEST007
+TEST041 - TEST014 - TEST014
+TEST042 - TEST007 - TEST007
+TEST042 - TEST014 - TEST014
+TEST043 - TEST007 - TEST007
+TEST044 - TEST007 - TEST007
+TEST045 - TEST007 - TEST007
+TEST046 - TEST007 - TEST007
+TEST047 - TEST007 - TEST007
+TEST048 - TEST007 - TEST007
+TEST049 - TEST007 - TEST007
+TEST050 - TEST007 - TEST014
+TEST051 - TEST007 - TEST022
+TEST052 - TEST022 - TEST007
+TEST053 - TEST014 - TEST014
+TEST054 - TEST014 - TEST014
+TEST054 - TEST011 - TEST011
+TEST055 - TEST014 - TEST025
+TEST056 - TEST025 - TEST014
+TEST057 - TEST014 - TEST023
+TEST059 - TEST000 - TEST011
+TEST059 - TEST016 - TEST011
+TEST059 - TEST014 - TEST011
+TEST059 - TEST020 - TEST011
+TEST059 - TEST018 - TEST011
+TEST060 - TEST007 - TEST007
+TEST060 - TEST014 - TEST014
+TEST065 - TEST007 - TEST007
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+71 Mulig Statis Activities
+SQL connection Closed
+Ordning name is empty
+**********************
+Windows PowerShell transcript end
+End time: 20220628095814
+**********************

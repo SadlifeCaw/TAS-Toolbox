@@ -1,0 +1,167 @@
+﻿[
+    {
+        "topic":  "Andet",
+        "script":  "checkallaudits.sql",
+        "filePath":  "SQL Scripts/Andet/checkallaudits.sql"
+    },
+    {
+        "topic":  "Andet",
+        "script":  "Get all tables with foriegn keys to column.sql",
+        "filePath":  "SQL Scripts/Andet/Get all tables with foriegn keys to column.sql"
+    },
+    {
+        "topic":  "Andet",
+        "script":  "Kør fejlede data sync igen.sql",
+        "filePath":  "SQL Scripts/Andet/Kør fejlede data sync igen.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Delete \u0027Mulig Status\u0027 by Regelsæt Name.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Delete \u0027Mulig Status\u0027 by Regelsæt Name.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Delete \u0027SchemaSettings\u0027 by Ordning name.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Delete \u0027SchemaSettings\u0027 by Ordning name.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Delete \u0027Status Neutral Activities\u0027 by Regelsæt Name.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Delete \u0027Status Neutral Activities\u0027 by Regelsæt Name.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Get all activities from module.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Get all activities from module.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Get all status in flow.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Get all status in flow.sql"
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Get all status to a specific status.sql",
+        "filePath":  "SQL Scripts/Regelsæt \u0026 Ordning/Get all status to a specific status.sql"
+    },
+    {
+        "topic":  "Sagsbehandling",
+        "script":  "Find alle sager med åbne skemaer af samme type.sql",
+        "filePath":  "SQL Scripts/Sagsbehandling/Find alle sager med åbne skemaer af samme type.sql"
+    },
+    {
+        "topic":  "Sagsbehandling",
+        "script":  "Generere notifikation.sql",
+        "filePath":  "SQL Scripts/Sagsbehandling/Generere notifikation.sql"
+    },
+    {
+        "topic":  "Sagsbehandling",
+        "script":  "Genåben en aktivitet.sql",
+        "filePath":  "SQL Scripts/Sagsbehandling/Genåben en aktivitet.sql"
+    },
+    {
+        "topic":  "Sagsbehandling",
+        "script":  "Slet dokument med akt nummer.sql",
+        "filePath":  "SQL Scripts/Sagsbehandling/Slet dokument med akt nummer.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - Check manglende laasning Skema.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - Check manglende laasning Skema.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - GetSchemaFromJournalNr.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - GetSchemaFromJournalNr.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - lås sagslog.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - lås sagslog.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - Manglende generering af kvittering.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - Manglende generering af kvittering.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - Manglende udløsning af skemaer.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - Manglende udløsning af skemaer.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - Tjek på datasyncjob der har fejlet.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - Tjek på datasyncjob der har fejlet.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - Tjek på sager der mangler e-mail.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - Tjek på sager der mangler e-mail.sql"
+    },
+    {
+        "topic":  "Stored Procedures",
+        "script":  "SP - åben sagslog.sql",
+        "filePath":  "SQL Scripts/Stored Procedures/SP - åben sagslog.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Find alle Templates og deres fields - DynamicFrontSystem.sql",
+        "filePath":  "SQL Scripts/XML/Find alle Templates og deres fields - DynamicFrontSystem.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Find alle Templates og deres fields - DynamicFrontSystemTemplate.sql",
+        "filePath":  "SQL Scripts/XML/Find alle Templates og deres fields - DynamicFrontSystemTemplate.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "IsCompact visning - DynamicFrontSystem.sql",
+        "filePath":  "SQL Scripts/XML/IsCompact visning - DynamicFrontSystem.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "IsCompact visning - DynamicFrontSystemTemplate.sql",
+        "filePath":  "SQL Scripts/XML/IsCompact visning - DynamicFrontSystemTemplate.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "IsMultiplePossibleChange.sql",
+        "filePath":  "SQL Scripts/XML/IsMultiplePossibleChange.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Låse Skemaer i XML v2.sql",
+        "filePath":  "SQL Scripts/XML/Låse Skemaer i XML v2.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Låse Skemaer i XML.sql",
+        "filePath":  "SQL Scripts/XML/Låse Skemaer i XML.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Låsning af skema.sql",
+        "filePath":  "SQL Scripts/XML/Låsning af skema.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Overfør ansøgt beløb fra skema til TAS sag.sql",
+        "filePath":  "SQL Scripts/XML/Overfør ansøgt beløb fra skema til TAS sag.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Usynlig title.sql",
+        "filePath":  "SQL Scripts/XML/Usynlig title.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Ændre FieldType på DynamicFrontsystem.sql",
+        "filePath":  "SQL Scripts/XML/Ændre FieldType på DynamicFrontsystem.sql"
+    },
+    {
+        "topic":  "XML",
+        "script":  "Ændre FieldType på DynamicFrontsystemTemplate.sql",
+        "filePath":  "SQL Scripts/XML/Ændre FieldType på DynamicFrontsystemTemplate.sql"
+    }
+]

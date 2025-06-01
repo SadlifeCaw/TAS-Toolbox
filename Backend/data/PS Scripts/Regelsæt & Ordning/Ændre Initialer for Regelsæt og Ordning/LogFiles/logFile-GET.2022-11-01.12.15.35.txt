@@ -1,0 +1,2749 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20221101121535
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 11748
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-11-01.12.15.35.txt
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initia
+ler for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file
+, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and tr
+y again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Reg
+elsæt og Ordning\Get-Scripts\Get-Status - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\Get-Scripts\Get-Status - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+ANS9BU001 - Ansøgning kladde – ANS9BU
+ANS9BU002 - Ansøgning modtaget – ANS9BU
+ANS9BU003 - Sagsbehandler indstilling- ANS9BU
+ANS9BU004 - Afventer ydl Opl (SB indstilling) - ANS9BU
+ANS9BU005 - Afventer suppl opl (SB indstilling)-AN9
+ANS9BU006 - Fejloprettet sag - ANS9BU
+ANS9BU007 - Ansøgning ressortomlagt - ANS9BU
+ANS9BU008 - Faglig sagsbehandler – ANS9BU
+ANS9BU009 - Afventer tilskudsmodtager accept - ANS9BU
+ANS9BU010 - Tilskudsaccept modtaget – ANS9BU
+ANS9BU011 - Afventer suppl opl. (TM accept) - ANS9BU
+ANS9BU012 - Udbetaling sat på stop (udb:anm)  - ANS9BU
+ANS9BU013 - Udbetalingsfase - ANS9BU
+ANS9BU014 - Udbetaling sat på stop (udb fase) - ANS9BU
+ANS9BU015 - Afventer regnskab – ANS9BU
+ANS9BU016 - Afventer ydl. Opl (UDB.Fase) - ANS9BU
+ANS9BU017 - Faglig sagsbehandler – ANS9BU - Udbetaling
+ANS9BU018 - Afventer Statusrapport – ANS9BU
+ANS9BU019 - Ansøgning slut - ANS9BU
+ANS9BU020 - Afventer projektændring – ANS9BU
+ANS9BU021 - Projektændring modtaget – Tilskud – ANS9BU
+ANS9BU022 - Afventer projektændring – Udb - ANS9BU
+ANS9BU023 - Projektændring modtaget – Udb – ANS9BU
+ANS9BU024 - Inkasso – ANS9BU
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 24 Status'
+SQL connection Closed
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initia
+ler for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file
+, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and tr
+y again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Reg
+elsæt og Ordning\Get-Scripts\Get-Activities - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\Get-Scripts\Get-Activities - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+###############
+Get-Activities
+###############
+Retrieved the Activities:
+ANS9BU001 - Ansøgning oprettet  – ANS9BU
+ANS9BU002 - Ansøgning indsendt – ANS9BU
+ANS9BU003 - Rediger ansøgning knap - ANS9BU
+ANS9BU004 - Klar til SB indstilling – ANS9BU
+ANS9BU005 - SB indstilling afsluttet - ANS9BU
+ANS9BU006 - Afslag – ANS9BU
+ANS9BU007 - Fejloprettet sag - ANS9BU
+ANS9BU008 - Ansøgning ressortomlagt  – ANS9BU
+ANS9BU009 - Yderligere oplysninger – ANS9BU
+ANS9BU010 - Indsend yderligere oplysninger - ANS9BU
+ANS9BU011 - Rykker ydl. Opl - ANS9BU
+ANS9BU012 - Ydl.oplysninger modtaget knap – ANS9BU
+ANS9BU013 - Supplerende oplysninger – ANS9BU
+ANS9BU014 - Supplerende oplysninger modtaget knap – ANS9BU
+ANS9BU015 - Rykker suppl. Opl - ANS9BU
+ANS9BU016 - Afslut sag. Uden bortfald – ANS9BU
+ANS9BU017 - Projekt afsluttet – ANS9BU - Ansøgning slut
+ANS9BU018 - Tilskud – ANS9BU - Socialstyrelsen
+ANS9BU019 - Tilskud – ANS9BU
+ANS9BU020 - Nedskrivning - ANS9BU
+ANS9BU021 - Projektændring uden tilsagnsændring - ANS9BU
+ANS9BU022 - Tillægstilskud - ANS9BU
+ANS9BU024 - Tilsagnsaktivitet til fejlrettelser – ANS9BU
+ANS9BU025 - Tilskudsmodtager afvisning modtaget – ANS9BU
+ANS9BU026 - Rykker for tilskudsmodtager accept – ANS9BU
+ANS9BU027 - Delvis tilbagebetaling - ANS9BU
+ANS9BU027 - Delvis tilbagebetaling - ANS9BU
+ANS9BU028 - 2. rykker regnskab - ANS9BU
+ANS9BU029 - Regnskab modtaget fra portal - ANS9BU
+ANS9BU030 - Status rapport modtaget fra portal - ANS9BU
+ANS9BU031 - Statusrapport modtaget - ANS9BU
+ANS9BU032 - Statusrapport godkendt - ANS9BU
+ANS9BU033 - 1. rykker regnskab - ANS9BU
+ANS9BU034 - Anmod om projektændring knap - ANS9BU
+ANS9BU035 - Central Inddrivelse – ANS9BU
+ANS9BU036 - Regnskab modtaget - ANS9BU
+ANS9BU037 - Udbetalinger sat på stop – ANS9BU
+ANS9BU038 - Udbetalinger genoptaget - ANS9BU
+ANS9BU039 - Udbetaling – ANS9BU
+ANS9BU040 - Regnskab godkendt - ANS9BU
+ANS9BU041 - Afregning af forskud - ANS9BU
+ANS9BU041 - Afregning af forskud - ANS9BU
+ANS9BU042 - 1. Reminder regnskab - ANS9BU
+ANS9BU043 - 1. Reminder rapport - ANS9BU
+ANS9BU044 - Regnskabsgennemgang - ANS9BU
+ANS9BU045 - Tilskudsmodtager accept modtaget – ANS9BU
+ANS9BU046 - Overfør til udbetaling – ANS9BU
+ANS9BU047 - Supplerende oplysninger TM accept – ANS9BU
+ANS9BU048 - Supplerende oplysninger modtaget TM accept knap – ANS9BU
+ANS9BU050 - Yderligere oplysninger udbetaling - ANS9BU
+ANS9BU051 - Yderligere oplysninger udb modtaget – ANS9BU
+ANS9BU052 - 1. rykker status – rapport - ANS9BU
+ANS9BU054 - Rykker udb – ANS9BU
+ANS9BU055 - Udbetaling manuelt - ANS9BU
+ANS9BU056 - 2. rykker rapport - ANS9BU
+ANS9BU057 - Annulleringsaktivitet til fejlrettelse – ANS9BU
+ANS9BU058 - Nedskrivning speciel - ANS9BU
+ANS9BU059 - Frigør projektændring – ANS9BU
+ANS9BU060 - Rykker for projektændring – ANS9BU
+ANS9BU061 - Projektændring modtaget – ANS9BU
+ANS9BU062 - Tilret projektændring – ANS9BU
+ANS9BU063 - Projektændring registrering – tilsagn – ANS9BU
+ANS9BU064 - Afvis projektændring -ANS9BU
+ANS9BU065 - Projektændring registrering – Udbetaling – ANS9BU
+ANS9BU066 - Note - ANS9BU
+ANS9BU067 - Post ind modtaget fra portal - ANS9BU
+ANS9BU068 - Tilskudsmodtager afvisning registeret - ANS9BU
+ANS9BU069 - Anmodning om projektændring modtaget - ANS9BU
+ANS9BU070 - Projektændring knap - ANS9BU
+ANS9BU66 - Post ind - ANS9BU
+ANS9BU67 - Post ud - ANS9BU
+DS_JOB_ERR - Datasynk job fejlet
+GEN002 - Notat , journaliseret - GEN
+Skille - ----------------------------------------------------------------------------------
+TIL9004 - Tilskud – TIL9
+TIL9005 - Tilskud – TIL9 - Socialstyrelsen
+Created Activities.csv file
+Retrieved 76 Activities
+
+ Outputs exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initia
+ler for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file
+, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and tr
+y again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Reg
+elsæt og Ordning\Get-Scripts\Get-StatusNeutralActivities - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+. : The term 'C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\0. Configs and Methods.ps1' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\Get-Scripts\Get-StatusNeutralActivities - v2.ps1:5 char:3
++ . "$path\0. Configs and Methods.ps1" #Loading all Configs and Methods
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\neveth...and Methods.ps1:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS>TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-11-01.12.16.37.txt
+Ordning name is empty
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+ANS9BU001 - Ansøgning kladde – ANS9BU
+ANS9BU002 - Ansøgning modtaget – ANS9BU
+ANS9BU003 - Sagsbehandler indstilling- ANS9BU
+ANS9BU004 - Afventer ydl Opl (SB indstilling) - ANS9BU
+ANS9BU005 - Afventer suppl opl (SB indstilling)-AN9
+ANS9BU006 - Fejloprettet sag - ANS9BU
+ANS9BU007 - Ansøgning ressortomlagt - ANS9BU
+ANS9BU008 - Faglig sagsbehandler – ANS9BU
+ANS9BU009 - Afventer tilskudsmodtager accept - ANS9BU
+ANS9BU010 - Tilskudsaccept modtaget – ANS9BU
+ANS9BU011 - Afventer suppl opl. (TM accept) - ANS9BU
+ANS9BU012 - Udbetaling sat på stop (udb:anm)  - ANS9BU
+ANS9BU013 - Udbetalingsfase - ANS9BU
+ANS9BU014 - Udbetaling sat på stop (udb fase) - ANS9BU
+ANS9BU015 - Afventer regnskab – ANS9BU
+ANS9BU016 - Afventer ydl. Opl (UDB.Fase) - ANS9BU
+ANS9BU017 - Faglig sagsbehandler – ANS9BU - Udbetaling
+ANS9BU018 - Afventer Statusrapport – ANS9BU
+ANS9BU019 - Ansøgning slut - ANS9BU
+ANS9BU020 - Afventer projektændring – ANS9BU
+ANS9BU021 - Projektændring modtaget – Tilskud – ANS9BU
+ANS9BU022 - Afventer projektændring – Udb - ANS9BU
+ANS9BU023 - Projektændring modtaget – Udb – ANS9BU
+ANS9BU024 - Inkasso – ANS9BU
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 24 Status'
+SQL connection Closed
+Ordning name is empty
+###############
+Get-Activities
+###############
+Retrieved the Activities:
+ANS9BU001 - Ansøgning oprettet  – ANS9BU
+ANS9BU002 - Ansøgning indsendt – ANS9BU
+ANS9BU003 - Rediger ansøgning knap - ANS9BU
+ANS9BU004 - Klar til SB indstilling – ANS9BU
+ANS9BU005 - SB indstilling afsluttet - ANS9BU
+ANS9BU006 - Afslag – ANS9BU
+ANS9BU007 - Fejloprettet sag - ANS9BU
+ANS9BU008 - Ansøgning ressortomlagt  – ANS9BU
+ANS9BU009 - Yderligere oplysninger – ANS9BU
+ANS9BU010 - Indsend yderligere oplysninger - ANS9BU
+ANS9BU011 - Rykker ydl. Opl - ANS9BU
+ANS9BU012 - Ydl.oplysninger modtaget knap – ANS9BU
+ANS9BU013 - Supplerende oplysninger – ANS9BU
+ANS9BU014 - Supplerende oplysninger modtaget knap – ANS9BU
+ANS9BU015 - Rykker suppl. Opl - ANS9BU
+ANS9BU016 - Afslut sag. Uden bortfald – ANS9BU
+ANS9BU017 - Projekt afsluttet – ANS9BU - Ansøgning slut
+ANS9BU018 - Tilskud – ANS9BU - Socialstyrelsen
+ANS9BU019 - Tilskud – ANS9BU
+ANS9BU020 - Nedskrivning - ANS9BU
+ANS9BU021 - Projektændring uden tilsagnsændring - ANS9BU
+ANS9BU022 - Tillægstilskud - ANS9BU
+ANS9BU024 - Tilsagnsaktivitet til fejlrettelser – ANS9BU
+ANS9BU025 - Tilskudsmodtager afvisning modtaget – ANS9BU
+ANS9BU026 - Rykker for tilskudsmodtager accept – ANS9BU
+ANS9BU027 - Delvis tilbagebetaling - ANS9BU
+ANS9BU027 - Delvis tilbagebetaling - ANS9BU
+ANS9BU028 - 2. rykker regnskab - ANS9BU
+ANS9BU029 - Regnskab modtaget fra portal - ANS9BU
+ANS9BU030 - Status rapport modtaget fra portal - ANS9BU
+ANS9BU031 - Statusrapport modtaget - ANS9BU
+ANS9BU032 - Statusrapport godkendt - ANS9BU
+ANS9BU033 - 1. rykker regnskab - ANS9BU
+ANS9BU034 - Anmod om projektændring knap - ANS9BU
+ANS9BU035 - Central Inddrivelse – ANS9BU
+ANS9BU036 - Regnskab modtaget - ANS9BU
+ANS9BU037 - Udbetalinger sat på stop – ANS9BU
+ANS9BU038 - Udbetalinger genoptaget - ANS9BU
+ANS9BU039 - Udbetaling – ANS9BU
+ANS9BU040 - Regnskab godkendt - ANS9BU
+ANS9BU041 - Afregning af forskud - ANS9BU
+ANS9BU041 - Afregning af forskud - ANS9BU
+ANS9BU042 - 1. Reminder regnskab - ANS9BU
+ANS9BU043 - 1. Reminder rapport - ANS9BU
+ANS9BU044 - Regnskabsgennemgang - ANS9BU
+ANS9BU045 - Tilskudsmodtager accept modtaget – ANS9BU
+ANS9BU046 - Overfør til udbetaling – ANS9BU
+ANS9BU047 - Supplerende oplysninger TM accept – ANS9BU
+ANS9BU048 - Supplerende oplysninger modtaget TM accept knap – ANS9BU
+ANS9BU050 - Yderligere oplysninger udbetaling - ANS9BU
+ANS9BU051 - Yderligere oplysninger udb modtaget – ANS9BU
+ANS9BU052 - 1. rykker status – rapport - ANS9BU
+ANS9BU054 - Rykker udb – ANS9BU
+ANS9BU055 - Udbetaling manuelt - ANS9BU
+ANS9BU056 - 2. rykker rapport - ANS9BU
+ANS9BU057 - Annulleringsaktivitet til fejlrettelse – ANS9BU
+ANS9BU058 - Nedskrivning speciel - ANS9BU
+ANS9BU059 - Frigør projektændring – ANS9BU
+ANS9BU060 - Rykker for projektændring – ANS9BU
+ANS9BU061 - Projektændring modtaget – ANS9BU
+ANS9BU062 - Tilret projektændring – ANS9BU
+ANS9BU063 - Projektændring registrering – tilsagn – ANS9BU
+ANS9BU064 - Afvis projektændring -ANS9BU
+ANS9BU065 - Projektændring registrering – Udbetaling – ANS9BU
+ANS9BU066 - Note - ANS9BU
+ANS9BU067 - Post ind modtaget fra portal - ANS9BU
+ANS9BU068 - Tilskudsmodtager afvisning registeret - ANS9BU
+ANS9BU069 - Anmodning om projektændring modtaget - ANS9BU
+ANS9BU070 - Projektændring knap - ANS9BU
+ANS9BU66 - Post ind - ANS9BU
+ANS9BU67 - Post ud - ANS9BU
+DS_JOB_ERR - Datasynk job fejlet
+GEN002 - Notat , journaliseret - GEN
+Skille - ----------------------------------------------------------------------------------
+TIL9004 - Tilskud – TIL9
+TIL9005 - Tilskud – TIL9 - Socialstyrelsen
+Created Activities.csv file
+Retrieved 76 Activities
+
+ Outputs exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+Ordning name is empty
+###############
+Get-StatusNeuralActivities
+###############
+SQL connection is successufull
+Query executed
+Retrieved 8 Status neutral activities
+Skille
+GEN002
+DS_JOB_ERR
+ANS9BU004
+ANS9BU066
+ANS9BU067
+ANS9BU66
+ANS9BU67
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+Ordning name is empty
+###############
+Get-ActivitySecurities
+###############
+SQL connection is successufull
+Query executed
+Output Template in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved Security permission
+ANS9BU001 - GODKENDER
+ANS9BU001 - PORTAL_USER
+ANS9BU001 - SMSAGA
+ANS9BU001 - SMSAGF
+ANS9BU001 - TAS
+ANS9BU002 - GODKENDER
+ANS9BU002 - PORTAL_USER
+ANS9BU002 - SMSAGA
+ANS9BU002 - SMSAGF
+ANS9BU002 - TAS
+ANS9BU003 - PORTAL_USER
+ANS9BU003 - SMSAGA
+ANS9BU003 - SMSAGF
+ANS9BU003 - TAS
+ANS9BU004 - GODKENDER
+ANS9BU004 - SEC
+ANS9BU004 - SMSAGA
+ANS9BU004 - SMSAGF
+ANS9BU004 - SUP
+ANS9BU004 - TAS
+ANS9BU005 - SEC
+ANS9BU005 - SMSAGA
+ANS9BU005 - SMSAGF
+ANS9BU005 - TAS
+ANS9BU006 - GODKENDER
+ANS9BU006 - PORTAL_USER
+ANS9BU006 - SMSAGA
+ANS9BU006 - SMSAGF
+ANS9BU006 - TAS
+ANS9BU007 - GODKENDER
+ANS9BU007 - SEC
+ANS9BU007 - SMSAGA
+ANS9BU007 - SMSAGF
+ANS9BU007 - TAS
+ANS9BU008 - REGN
+ANS9BU008 - SMSAGA
+ANS9BU008 - SMSAGF
+ANS9BU008 - TAS
+ANS9BU009 - CONTROLLER
+ANS9BU009 - SEC
+ANS9BU009 - SMSAGA
+ANS9BU009 - SMSAGF
+ANS9BU009 - TAS
+ANS9BU010 - PORTAL_USER
+ANS9BU010 - SEC
+ANS9BU010 - SMSAGA
+ANS9BU010 - SMSAGF
+ANS9BU010 - SUP
+ANS9BU010 - TAS
+ANS9BU011 - SEC
+ANS9BU011 - SMSAGA
+ANS9BU011 - SMSAGF
+ANS9BU011 - TAS
+ANS9BU012 - PORTAL_USER
+ANS9BU012 - SEC
+ANS9BU012 - SMSAGA
+ANS9BU012 - SMSAGF
+ANS9BU012 - TAS
+ANS9BU013 - CONTROLLER
+ANS9BU013 - SEC
+ANS9BU013 - SMSAGA
+ANS9BU013 - SMSAGF
+ANS9BU013 - TAS
+ANS9BU014 - PORTAL_USER
+ANS9BU014 - SEC
+ANS9BU014 - SMSAGA
+ANS9BU014 - SMSAGF
+ANS9BU014 - TAS
+ANS9BU015 - SEC
+ANS9BU015 - SMSAGA
+ANS9BU015 - SMSAGF
+ANS9BU015 - TAS
+ANS9BU016 - SMSAGA
+ANS9BU016 - SMSAGF
+ANS9BU016 - TAS
+ANS9BU017 - SMSAGA
+ANS9BU017 - SMSAGF
+ANS9BU017 - TAS
+ANS9BU018 - GODKENDER
+ANS9BU018 - PORTAL_USER
+ANS9BU018 - SMSAGA
+ANS9BU018 - SMSAGF
+ANS9BU018 - TAS
+ANS9BU019 - GODKENDER
+ANS9BU019 - PORTAL_USER
+ANS9BU019 - SMSAGA
+ANS9BU019 - SMSAGF
+ANS9BU019 - TAS
+ANS9BU020 - SMSAGA
+ANS9BU020 - SMSAGF
+ANS9BU020 - TAS
+ANS9BU021 - SEC
+ANS9BU021 - SMSAGA
+ANS9BU021 - SMSAGF
+ANS9BU021 - TAS
+ANS9BU022 - GODKENDER
+ANS9BU022 - SMSAGA
+ANS9BU022 - SMSAGF
+ANS9BU022 - TAS
+ANS9BU024 - SMSAGA
+ANS9BU024 - SMSAGF
+ANS9BU024 - TAS
+ANS9BU025 - PORTAL_USER
+ANS9BU025 - SMSAGA
+ANS9BU025 - SMSAGF
+ANS9BU025 - TAS
+ANS9BU026 - SEC
+ANS9BU026 - SMSAGA
+ANS9BU026 - SMSAGF
+ANS9BU026 - TAS
+ANS9BU027 - SEC
+ANS9BU027 - SMSAGA
+ANS9BU027 - SMSAGF
+ANS9BU027 - TAS
+ANS9BU028 - SEC
+ANS9BU028 - SMSAGA
+ANS9BU028 - SMSAGF
+ANS9BU028 - TAS
+ANS9BU029 - PORTAL_USER
+ANS9BU029 - SEC
+ANS9BU029 - SMSAGA
+ANS9BU029 - SMSAGF
+ANS9BU029 - TAS
+ANS9BU030 - PORTAL_USER
+ANS9BU030 - SMSAGA
+ANS9BU030 - SMSAGF
+ANS9BU030 - TAS
+ANS9BU031 - SMSAGA
+ANS9BU031 - SMSAGF
+ANS9BU031 - TAS
+ANS9BU032 - SMSAGA
+ANS9BU032 - SMSAGF
+ANS9BU032 - TAS
+ANS9BU033 - REVISION
+ANS9BU033 - SEC
+ANS9BU033 - SMSAGA
+ANS9BU033 - SMSAGF
+ANS9BU033 - TAS
+ANS9BU034 - PORTAL_USER
+ANS9BU034 - SEC
+ANS9BU034 - SMSAGA
+ANS9BU034 - SMSAGF
+ANS9BU035 - SEC
+ANS9BU035 - SMSAGA
+ANS9BU035 - SMSAGF
+ANS9BU035 - TAS
+ANS9BU036 - CONTROLLER
+ANS9BU036 - SMSAGA
+ANS9BU036 - SMSAGF
+ANS9BU036 - TAS
+ANS9BU037 - REVISION
+ANS9BU037 - SEC
+ANS9BU037 - SMSAGA
+ANS9BU037 - SMSAGF
+ANS9BU037 - TAS
+ANS9BU038 - SEC
+ANS9BU038 - SMSAGA
+ANS9BU038 - SMSAGF
+ANS9BU038 - TAS
+ANS9BU039 - GODKENDER
+ANS9BU039 - SMSAGA
+ANS9BU039 - SMSAGF
+ANS9BU039 - TAS
+ANS9BU040 - SMSAGA
+ANS9BU040 - SMSAGF
+ANS9BU040 - TAS
+ANS9BU041 - GODKENDER
+ANS9BU041 - SMSAGA
+ANS9BU041 - SMSAGF
+ANS9BU041 - TAS
+ANS9BU042 - SEC
+ANS9BU042 - SMSAGA
+ANS9BU042 - SMSAGF
+ANS9BU043 - SMSAGA
+ANS9BU043 - SMSAGF
+ANS9BU043 - TAS
+ANS9BU044 - SMSAGA
+ANS9BU044 - SMSAGF
+ANS9BU044 - TAS
+ANS9BU045 - GODKENDER
+ANS9BU045 - PORTAL_USER
+ANS9BU045 - SMSAGA
+ANS9BU045 - SMSAGF
+ANS9BU045 - TAS
+ANS9BU046 - SEC
+ANS9BU046 - SMSAGA
+ANS9BU046 - SMSAGF
+ANS9BU046 - TAS
+ANS9BU047 - CONTROLLER
+ANS9BU047 - GODKENDER
+ANS9BU047 - SEC
+ANS9BU047 - SMSAGA
+ANS9BU047 - SMSAGF
+ANS9BU047 - SUP
+ANS9BU047 - TAS
+ANS9BU048 - PORTAL_USER
+ANS9BU048 - SMSAGA
+ANS9BU048 - SMSAGF
+ANS9BU050 - CONTROLLER
+ANS9BU050 - SEC
+ANS9BU050 - SMSAGA
+ANS9BU050 - SMSAGF
+ANS9BU050 - TAS
+ANS9BU051 - CONTROLLER
+ANS9BU051 - PORTAL_USER
+ANS9BU051 - SEC
+ANS9BU051 - SMSAGA
+ANS9BU051 - SMSAGF
+ANS9BU051 - TAS
+ANS9BU052 - SMSAGA
+ANS9BU052 - SMSAGF
+ANS9BU052 - TAS
+ANS9BU054 - SEC
+ANS9BU054 - SMSAGA
+ANS9BU054 - SMSAGF
+ANS9BU054 - TAS
+ANS9BU055 - GODKENDER
+ANS9BU055 - SMSAGA
+ANS9BU055 - SMSAGF
+ANS9BU055 - TAS
+ANS9BU056 - SMSAGA
+ANS9BU056 - SMSAGF
+ANS9BU056 - TAS
+ANS9BU057 - SMSAGA
+ANS9BU057 - SMSAGF
+ANS9BU057 - TAS
+ANS9BU058 - GODKENDER
+ANS9BU058 - SMSAGA
+ANS9BU058 - SMSAGF
+ANS9BU058 - TAS
+ANS9BU059 - SEC
+ANS9BU059 - SMSAGA
+ANS9BU059 - SMSAGF
+ANS9BU060 - SEC
+ANS9BU060 - SMSAGA
+ANS9BU060 - SMSAGF
+ANS9BU060 - TAS
+ANS9BU061 - PORTAL_USER
+ANS9BU061 - SMSAGA
+ANS9BU061 - SMSAGF
+ANS9BU062 - SMSAGA
+ANS9BU062 - SMSAGF
+ANS9BU063 - SEC
+ANS9BU063 - SMSAGA
+ANS9BU063 - SMSAGF
+ANS9BU063 - TAS
+ANS9BU064 - SEC
+ANS9BU064 - SMSAGA
+ANS9BU064 - SMSAGF
+ANS9BU064 - TAS
+ANS9BU065 - SEC
+ANS9BU065 - SMSAGA
+ANS9BU065 - SMSAGF
+ANS9BU065 - TAS
+ANS9BU066 - SEC
+ANS9BU066 - SMSAGA
+ANS9BU066 - SMSAGF
+ANS9BU066 - TAS
+ANS9BU067 - SMSAGA
+ANS9BU067 - SMSAGF
+ANS9BU067 - TAS
+ANS9BU068 - SMSAGA
+ANS9BU068 - SMSAGF
+ANS9BU068 - TAS
+ANS9BU069 - SMSAGA
+ANS9BU069 - SMSAGF
+ANS9BU069 - TAS
+ANS9BU070 - PORTAL_USER
+ANS9BU070 - SMSAGA
+ANS9BU070 - SMSAGF
+ANS9BU66 - PORTAL_USER
+ANS9BU66 - SMSAGA
+ANS9BU66 - SMSAGF
+ANS9BU66 - TAS
+ANS9BU67 - PORTAL_USER
+ANS9BU67 - SMSAGA
+ANS9BU67 - SMSAGF
+ANS9BU67 - TAS
+GEN002 - GODKENDER
+GEN002 - RAP
+GEN002 - REGN
+GEN002 - SEC
+GEN002 - SMSAGA
+GEN002 - SMSAGF
+GEN002 - SUP
+GEN002 - TAS
+Skille - GODKENDER
+Skille - SEC
+Skille - SMSAGA
+Skille - SMSAGF
+Skille - TAS
+TIL9004 - GODKENDER
+TIL9004 - PORTAL_USER
+TIL9004 - SMSAGA
+TIL9004 - SMSAGF
+TIL9004 - TAS
+TIL9005 - GODKENDER
+TIL9005 - PORTAL_USER
+TIL9005 - SMSAGA
+TIL9005 - SMSAGF
+TIL9005 - TAS
+301 Security Permissions
+SQL connection Closed
+Ordning name is empty
+###############
+Get-MuligStatus
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+24 Status'
+Query executed
+ANS9BU002 - ANS9BU001 - ANS9BU002
+ANS9BU003 - ANS9BU002 - ANS9BU002
+ANS9BU008 - ANS9BU002 - ANS9BU007
+ANS9BU004 - ANS9BU002 - ANS9BU003
+ANS9BU017 - ANS9BU002 - ANS9BU019
+ANS9BU005 - ANS9BU003 - ANS9BU003
+ANS9BU009 - ANS9BU003 - ANS9BU004
+ANS9BU013 - ANS9BU003 - ANS9BU005
+ANS9BU007 - ANS9BU003 - ANS9BU006
+ANS9BU007 - ANS9BU002 - ANS9BU006
+ANS9BU006 - ANS9BU003 - ANS9BU019
+ANS9BU016 - ANS9BU003 - ANS9BU019
+ANS9BU017 - ANS9BU003 - ANS9BU019
+ANS9BU008 - ANS9BU003 - ANS9BU007
+ANS9BU019 - ANS9BU003 - ANS9BU009
+ANS9BU018 - ANS9BU003 - ANS9BU009
+TIL9004 - ANS9BU003 - ANS9BU009
+TIL9005 - ANS9BU003 - ANS9BU009
+ANS9BU010 - ANS9BU004 - ANS9BU004
+ANS9BU011 - ANS9BU004 - ANS9BU004
+ANS9BU012 - ANS9BU004 - ANS9BU003
+ANS9BU008 - ANS9BU004 - ANS9BU007
+ANS9BU016 - ANS9BU004 - ANS9BU019
+ANS9BU014 - ANS9BU005 - ANS9BU003
+ANS9BU015 - ANS9BU005 - ANS9BU005
+ANS9BU008 - ANS9BU005 - ANS9BU007
+ANS9BU006 - ANS9BU005 - ANS9BU019
+ANS9BU020 - ANS9BU008 - ANS9BU009
+ANS9BU021 - ANS9BU008 - ANS9BU009
+ANS9BU022 - ANS9BU008 - ANS9BU009
+ANS9BU016 - ANS9BU008 - ANS9BU019
+ANS9BU008 - ANS9BU008 - ANS9BU007
+ANS9BU034 - ANS9BU009 - ANS9BU009
+ANS9BU024 - ANS9BU009 - ANS9BU009
+ANS9BU025 - ANS9BU009 - ANS9BU009
+ANS9BU026 - ANS9BU009 - ANS9BU009
+ANS9BU045 - ANS9BU009 - ANS9BU010
+ANS9BU017 - ANS9BU009 - ANS9BU019
+ANS9BU008 - ANS9BU009 - ANS9BU007
+ANS9BU037 - ANS9BU009 - ANS9BU012
+ANS9BU047 - ANS9BU009 - ANS9BU011
+ANS9BU059 - ANS9BU009 - ANS9BU020
+ANS9BU046 - ANS9BU010 - ANS9BU013
+ANS9BU006 - ANS9BU010 - ANS9BU019
+ANS9BU008 - ANS9BU010 - ANS9BU007
+ANS9BU048 - ANS9BU011 - ANS9BU009
+ANS9BU016 - ANS9BU009 - ANS9BU019
+ANS9BU015 - ANS9BU011 - ANS9BU011
+ANS9BU017 - ANS9BU011 - ANS9BU019
+ANS9BU008 - ANS9BU011 - ANS9BU007
+ANS9BU038 - ANS9BU012 - ANS9BU009
+ANS9BU016 - ANS9BU012 - ANS9BU019
+ANS9BU008 - ANS9BU012 - ANS9BU007
+ANS9BU039 - ANS9BU013 - ANS9BU013
+ANS9BU036 - ANS9BU013 - ANS9BU013
+ANS9BU040 - ANS9BU013 - ANS9BU013
+ANS9BU032 - ANS9BU013 - ANS9BU013
+ANS9BU031 - ANS9BU013 - ANS9BU013
+ANS9BU027 - ANS9BU013 - ANS9BU013
+ANS9BU030 - ANS9BU013 - ANS9BU013
+ANS9BU029 - ANS9BU013 - ANS9BU013
+ANS9BU041 - ANS9BU013 - ANS9BU013
+ANS9BU042 - ANS9BU013 - ANS9BU013
+ANS9BU043 - ANS9BU013 - ANS9BU013
+ANS9BU024 - ANS9BU013 - ANS9BU013
+ANS9BU044 - ANS9BU013 - ANS9BU013
+ANS9BU022 - ANS9BU013 - ANS9BU013
+ANS9BU034 - ANS9BU013 - ANS9BU014
+ANS9BU037 - ANS9BU013 - ANS9BU014
+ANS9BU050 - ANS9BU013 - ANS9BU016
+ANS9BU008 - ANS9BU013 - ANS9BU007
+ANS9BU006 - ANS9BU013 - ANS9BU019
+ANS9BU033 - ANS9BU013 - ANS9BU014
+ANS9BU052 - ANS9BU013 - ANS9BU014
+ANS9BU030 - ANS9BU014 - ANS9BU014
+ANS9BU029 - ANS9BU014 - ANS9BU014
+ANS9BU038 - ANS9BU014 - ANS9BU013
+ANS9BU059 - ANS9BU014 - ANS9BU022
+ANS9BU008 - ANS9BU014 - ANS9BU007
+ANS9BU006 - ANS9BU014 - ANS9BU019
+ANS9BU036 - ANS9BU015 - ANS9BU015
+ANS9BU035 - ANS9BU015 - ANS9BU024
+ANS9BU059 - ANS9BU015 - ANS9BU020
+ANS9BU027 - ANS9BU015 - ANS9BU015
+ANS9BU028 - ANS9BU015 - ANS9BU015
+ANS9BU029 - ANS9BU015 - ANS9BU015
+ANS9BU030 - ANS9BU015 - ANS9BU015
+ANS9BU031 - ANS9BU015 - ANS9BU015
+ANS9BU032 - ANS9BU015 - ANS9BU015
+ANS9BU033 - ANS9BU015 - ANS9BU015
+ANS9BU034 - ANS9BU015 - ANS9BU015
+ANS9BU016 - ANS9BU015 - ANS9BU019
+ANS9BU008 - ANS9BU015 - ANS9BU007
+ANS9BU051 - ANS9BU016 - ANS9BU013
+ANS9BU054 - ANS9BU016 - ANS9BU016
+ANS9BU039 - ANS9BU016 - ANS9BU016
+ANS9BU055 - ANS9BU016 - ANS9BU016
+ANS9BU006 - ANS9BU016 - ANS9BU019
+ANS9BU008 - ANS9BU016 - ANS9BU007
+ANS9BU057 - ANS9BU017 - ANS9BU017
+ANS9BU058 - ANS9BU017 - ANS9BU017
+ANS9BU020 - ANS9BU017 - ANS9BU013
+ANS9BU036 - ANS9BU017 - ANS9BU013
+ANS9BU022 - ANS9BU017 - ANS9BU013
+ANS9BU021 - ANS9BU017 - ANS9BU013
+ANS9BU006 - ANS9BU017 - ANS9BU019
+ANS9BU008 - ANS9BU017 - ANS9BU007
+ANS9BU056 - ANS9BU018 - ANS9BU018
+ANS9BU027 - ANS9BU018 - ANS9BU018
+ANS9BU030 - ANS9BU018 - ANS9BU018
+ANS9BU029 - ANS9BU018 - ANS9BU018
+ANS9BU036 - ANS9BU018 - ANS9BU018
+ANS9BU040 - ANS9BU018 - ANS9BU018
+ANS9BU044 - ANS9BU018 - ANS9BU018
+ANS9BU034 - ANS9BU018 - ANS9BU018
+ANS9BU059 - ANS9BU018 - ANS9BU008
+ANS9BU035 - ANS9BU018 - ANS9BU024
+ANS9BU031 - ANS9BU018 - ANS9BU018
+ANS9BU016 - ANS9BU018 - ANS9BU019
+ANS9BU008 - ANS9BU018 - ANS9BU007
+ANS9BU060 - ANS9BU020 - ANS9BU020
+ANS9BU061 - ANS9BU020 - ANS9BU021
+ANS9BU016 - ANS9BU020 - ANS9BU019
+ANS9BU008 - ANS9BU020 - ANS9BU007
+ANS9BU062 - ANS9BU021 - ANS9BU020
+ANS9BU063 - ANS9BU021 - ANS9BU008
+ANS9BU064 - ANS9BU021 - ANS9BU008
+ANS9BU016 - ANS9BU021 - ANS9BU019
+ANS9BU008 - ANS9BU021 - ANS9BU007
+ANS9BU060 - ANS9BU022 - ANS9BU022
+ANS9BU061 - ANS9BU022 - ANS9BU023
+ANS9BU006 - ANS9BU022 - ANS9BU019
+ANS9BU008 - ANS9BU022 - ANS9BU007
+ANS9BU062 - ANS9BU023 - ANS9BU022
+ANS9BU064 - ANS9BU023 - ANS9BU017
+ANS9BU065 - ANS9BU023 - ANS9BU017
+ANS9BU006 - ANS9BU023 - ANS9BU019
+ANS9BU008 - ANS9BU023 - ANS9BU007
+ANS9BU006 - ANS9BU024 - ANS9BU019
+ANS9BU008 - ANS9BU024 - ANS9BU007
+ANS9BU036 - ANS9BU014 - ANS9BU013
+ANS9BU027 - ANS9BU014 - ANS9BU014
+ANS9BU028 - ANS9BU014 - ANS9BU014
+ANS9BU034 - ANS9BU014 - ANS9BU014
+ANS9BU040 - ANS9BU014 - ANS9BU014
+ANS9BU044 - ANS9BU014 - ANS9BU014
+ANS9BU056 - ANS9BU014 - ANS9BU014
+ANS9BU032 - ANS9BU014 - ANS9BU014
+ANS9BU002 - ANS9BU002 - ANS9BU002
+ANS9BU035 - ANS9BU014 - ANS9BU024
+ANS9BU031 - ANS9BU014 - ANS9BU013
+ANS9BU068 - ANS9BU009 - ANS9BU009
+ANS9BU069 - ANS9BU009 - ANS9BU009
+ANS9BU069 - ANS9BU014 - ANS9BU014
+ANS9BU070 - ANS9BU020 - ANS9BU020
+ANS9BU070 - ANS9BU022 - ANS9BU022
+ANS9BU006 - ANS9BU012 - ANS9BU019
+ANS9BU001 - ANS9BU001 - ANS9BU001
+ANS9BU007 - ANS9BU001 - ANS9BU006
+ANS9BU013 - ANS9BU005 - ANS9BU005
+ANS9BU017 - ANS9BU013 - ANS9BU019
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+161 Mulig Statis Activities
+SQL connection Closed
+Transcript stopped, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-11-01.12.16.37.txt
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.22.31.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+Invoke-Sqlcmd : String or binary data would be truncated.
+The statement has been terminated. 
+ Msg 8152, Level 16, State 30, Procedure , Line 1.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordnin
+g - final\Set-Scripts\Set-Status - v2.ps1:58 char:9
++         Invoke-Sqlcmd -Query $query -ConnectionString $connectionstri ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-Sqlcmd], SqlPowerShellSqlExecutionException
+    + FullyQualifiedErrorId : SqlError,Microsoft.SqlServer.Management.PowerShell.GetScriptCommand
+Invoke-Sqlcmd : String or binary data would be truncated.
+The statement has been terminated.
+ Msg 8152, Level 16, State 30, Procedure , Line 1.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\Set-Scripts\Set-Status - v2.ps1:58 char:9
++         Invoke-Sqlcmd -Query $query -ConnectionString $connectionstri ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Invoke-Sqlcmd], SqlPowerShellSqlExecutionException
+    + FullyQualifiedErrorId : SqlError,Microsoft.SqlServer.Management.PowerShell.GetScriptCommand
+
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+Ordning name is empty
+###############
+Set-Activities
+###############
+PS C:\WINDOWS\system32> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.23.23.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.39.34.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS '+char(40'+char(41)+'+'STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus'+char(41)+' 
+VALUES'+char(40'+char(41)+'+''ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU004',NULL,'Afventer ydl Opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU005',NULL,'Afventer suppl opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+'-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU011',NULL,'Afventer suppl opl. '+char(40'+char(41)+'+'TM accept'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU012',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb:anm'+char(41)+'  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU014',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,'''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU016',NULL,'Afventer ydl. Opl '+char(40'+char(41)+'+'UDB.Fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,'''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles''+char(41)+', 
+'+char(40'+char(41)+'+''ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet''+char(41)+'
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.41.24.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+PS C:\WINDOWS\system32> TerminatingError(EscapeCharacters): "Cannot bind argument to parameter 'Text' because it is an empty string."
+EscapeCharacters : Cannot bind argument to parameter 'Text' because it is an empty string.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordnin
+g - final\Set-Scripts\Set-Status - v2.ps1:37 char:46
++             $public = EscapeCharacters -Text $public
++                                              ~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [EscapeCharacters], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,EscapeCharacters
+EscapeCharacters : Cannot bind argument to parameter 'Text' because it is an empty string.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\Set-Scripts\Set-Status - v2.ps1:37 char:46
++             $public = EscapeCharacters -Text $public
++                                              ~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [EscapeCharacters], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,EscapeCharacters
+
+PS C:\WINDOWS\system32> TerminatingError(EscapeCharacters): "Cannot bind argument to parameter 'Text' because it is an empty string."
+EscapeCharacters : Cannot bind argument to parameter 'Text' because it is an empty string.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordnin
+g - final\Set-Scripts\Set-Status - v2.ps1:37 char:46
++             $public = EscapeCharacters -Text $public
++                                              ~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [EscapeCharacters], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,EscapeCharacters
+EscapeCharacters : Cannot bind argument to parameter 'Text' because it is an empty string.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\Set-Scripts\Set-Status - v2.ps1:37 char:46
++             $public = EscapeCharacters -Text $public
++                                              ~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [EscapeCharacters], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,EscapeCharacters
+
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+'-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. '+char(40'+char(41)+'+'TM accept'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb:anm'+char(41)+'  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl '+char(40'+char(41)+'+'UDB.Fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.42.43.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+'-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. '+char(40'+char(41)+'+'TM accept'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb:anm'+char(41)+'  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl '+char(40'+char(41)+'+'UDB.Fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.44.39.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl '+char(40'+char(41)+'+'SB indstilling'+char(41)+'-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. '+char(40'+char(41)+'+'TM accept'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb:anm'+char(41)+'  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop '+char(40'+char(41)+'+'udb fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl '+char(40'+char(41)+'+'UDB.Fase'+char(41)+' - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.47.21.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.48.17.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.49.18.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.49.55.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU
+Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU
+Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU
+Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU
+Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9
+Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU
+Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU
+Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU
+Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU
+Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU
+Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU
+Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU
+Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU
+Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU
+Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU
+Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU
+Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU
+Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU
+Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU
+Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU
+Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU
+Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU
+Inkasso – ANS9BU Inkasso – ANS9BU
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.50.29.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+Ansøgning kladde – ANS9BU
+Sag oprettet
+Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU
+Ansøgning modtaget – ANS9BU
+Sagsbehandling i gang
+Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU
+Sagsbehandler indstilling- ANS9BU
+Sagsbehandling i gang
+Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU
+Afventer ydl Opl (SB indstilling) - ANS9BU
+Afventer tilskudsmodtager
+Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU
+Afventer suppl opl (SB indstilling)-AN9
+Afventer tilskudsmodtager
+Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9
+Fejloprettet sag - ANS9BU
+Sag afsluttet
+Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU
+Ansøgning ressortomlagt - ANS9BU
+Sag afsluttet
+Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU
+Faglig sagsbehandler – ANS9BU
+Sagsbehandling i gang
+Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU
+Afventer tilskudsmodtager accept - ANS9BU
+Afventer tilskudsmodtager
+Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU
+Tilskudsaccept modtaget – ANS9BU
+Sagsbehandling i gang
+Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU
+Afventer suppl opl. (TM accept) - ANS9BU
+Afventer tilskudsmodtager
+Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU
+Udbetaling sat på stop (udb:anm)  - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU
+Udbetalingsfase - ANS9BU
+Udbetaling i gang
+Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU
+Udbetaling sat på stop (udb fase) - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU
+Afventer regnskab – ANS9BU
+Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU
+Afventer ydl. Opl (UDB.Fase) - ANS9BU
+Udbetaling stoppet
+Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU
+Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer tilskudsmodtager
+Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer Statusrapport – ANS9BU
+Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU
+Ansøgning slut - ANS9BU
+Sag afsluttet
+Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU
+Afventer projektændring – ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU
+Projektændring modtaget – Tilskud – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU
+Afventer projektændring – Udb - ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU
+Projektændring modtaget – Udb – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU
+Inkasso – ANS9BU
+Sag afsluttet
+Inkasso – ANS9BU Inkasso – ANS9BU
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.50.46.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+Ansøgning kladde – ANS9BU
+Sag oprettet
+Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU
+Ansøgning modtaget – ANS9BU
+Sagsbehandling i gang
+Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU
+Sagsbehandler indstilling- ANS9BU
+Sagsbehandling i gang
+Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU
+Afventer ydl Opl (SB indstilling) - ANS9BU
+Afventer tilskudsmodtager
+Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU
+Afventer suppl opl (SB indstilling)-AN9
+Afventer tilskudsmodtager
+Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9
+Fejloprettet sag - ANS9BU
+Sag afsluttet
+Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU
+Ansøgning ressortomlagt - ANS9BU
+Sag afsluttet
+Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU
+Faglig sagsbehandler – ANS9BU
+Sagsbehandling i gang
+Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU
+Afventer tilskudsmodtager accept - ANS9BU
+Afventer tilskudsmodtager
+Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU
+Tilskudsaccept modtaget – ANS9BU
+Sagsbehandling i gang
+Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU
+Afventer suppl opl. (TM accept) - ANS9BU
+Afventer tilskudsmodtager
+Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU
+Udbetaling sat på stop (udb:anm)  - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU
+Udbetalingsfase - ANS9BU
+Udbetaling i gang
+Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU
+Udbetaling sat på stop (udb fase) - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU
+Afventer regnskab – ANS9BU
+Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU
+Afventer ydl. Opl (UDB.Fase) - ANS9BU
+Udbetaling stoppet
+Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU
+Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer tilskudsmodtager
+Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer Statusrapport – ANS9BU
+Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU
+Ansøgning slut - ANS9BU
+Sag afsluttet
+Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU
+Afventer projektændring – ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU
+Projektændring modtaget – Tilskud – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU
+Afventer projektændring – Udb - ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU
+Projektændring modtaget – Udb – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU
+Inkasso – ANS9BU
+Sag afsluttet
+Inkasso – ANS9BU Inkasso – ANS9BU
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU Afventer ydl Opl (SB indstilling) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9 Afventer suppl opl (SB indstilling)-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU Afventer suppl opl. (TM accept) - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU Udbetaling sat på stop (udb:anm)  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU Udbetaling sat på stop (udb fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU Afventer ydl. Opl (UDB.Fase) - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.51.11.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+Ansøgning kladde – ANS9BU
+Sag oprettet
+Ansøgning kladde – ANS9BU
+Ansøgning modtaget – ANS9BU
+Sagsbehandling i gang
+Ansøgning modtaget – ANS9BU
+Sagsbehandler indstilling- ANS9BU
+Sagsbehandling i gang
+Sagsbehandler indstilling- ANS9BU
+Afventer ydl Opl SB indstilling - ANS9BU
+Afventer tilskudsmodtager
+Afventer ydl Opl SB indstilling - ANS9BU
+Afventer suppl opl SB indstilling-AN9
+Afventer tilskudsmodtager
+Afventer suppl opl SB indstilling-AN9
+Fejloprettet sag - ANS9BU
+Sag afsluttet
+Fejloprettet sag - ANS9BU
+Ansøgning ressortomlagt - ANS9BU
+Sag afsluttet
+Ansøgning ressortomlagt - ANS9BU
+Faglig sagsbehandler – ANS9BU
+Sagsbehandling i gang
+Faglig sagsbehandler – ANS9BU
+Afventer tilskudsmodtager accept - ANS9BU
+Afventer tilskudsmodtager
+Afventer tilskudsmodtager accept - ANS9BU
+Tilskudsaccept modtaget – ANS9BU
+Sagsbehandling i gang
+Tilskudsaccept modtaget – ANS9BU
+Afventer suppl opl. TM accept - ANS9BU
+Afventer tilskudsmodtager
+Afventer suppl opl. TM accept - ANS9BU
+Udbetaling sat på stop udb:anm  - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb:anm  - ANS9BU
+Udbetalingsfase - ANS9BU
+Udbetaling i gang
+Udbetalingsfase - ANS9BU
+Udbetaling sat på stop udb fase - ANS9BU
+Udbetaling stoppet
+Udbetaling sat på stop udb fase - ANS9BU
+Afventer regnskab – ANS9BU
+Afventer regnskab – ANS9BU
+Afventer ydl. Opl UDB.Fase - ANS9BU
+Udbetaling stoppet
+Afventer ydl. Opl UDB.Fase - ANS9BU
+Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer tilskudsmodtager
+Faglig sagsbehandler – ANS9BU - Udbetaling
+Afventer Statusrapport – ANS9BU
+Afventer Statusrapport – ANS9BU
+Ansøgning slut - ANS9BU
+Sag afsluttet
+Ansøgning slut - ANS9BU
+Afventer projektændring – ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – ANS9BU
+Projektændring modtaget – Tilskud – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Tilskud – ANS9BU
+Afventer projektændring – Udb - ANS9BU
+Afventer tilskudsmodtager
+Afventer projektændring – Udb - ANS9BU
+Projektændring modtaget – Udb – ANS9BU
+Anmodning behandles
+Projektændring modtaget – Udb – ANS9BU
+Inkasso – ANS9BU
+Sag afsluttet
+Inkasso – ANS9BU
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.51.32.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Status
+###############
+The INSERT query has been created.
+INSERT INTO STATUS (STATUS, STATUS_ID, TEKST, CTRL_DATA, AFLOB, INITIALER, DATO_AENDRING, PublicStatus) 
+VALUES('ANS9BU001',NULL,'Ansøgning kladde – ANS9BU','N','J',NULL,NULL,'Sag oprettet'), 
+('ANS9BU002',NULL,'Ansøgning modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU003',NULL,'Sagsbehandler indstilling- ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU004',NULL,'Afventer ydl Opl SB indstilling - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU005',NULL,'Afventer suppl opl SB indstilling-AN9','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU006',NULL,'Fejloprettet sag - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU007',NULL,'Ansøgning ressortomlagt - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU008',NULL,'Faglig sagsbehandler – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU009',NULL,'Afventer tilskudsmodtager accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU010',NULL,'Tilskudsaccept modtaget – ANS9BU','N','J',NULL,NULL,'Sagsbehandling i gang'), 
+('ANS9BU011',NULL,'Afventer suppl opl. TM accept - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU012',NULL,'Udbetaling sat på stop udb:anm  - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU013',NULL,'Udbetalingsfase - ANS9BU','N','J',NULL,NULL,'Udbetaling i gang'), 
+('ANS9BU014',NULL,'Udbetaling sat på stop udb fase - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU015',NULL,'Afventer regnskab – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU016',NULL,'Afventer ydl. Opl UDB.Fase - ANS9BU','N','J',NULL,NULL,'Udbetaling stoppet'), 
+('ANS9BU017',NULL,'Faglig sagsbehandler – ANS9BU - Udbetaling','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU018',NULL,'Afventer Statusrapport – ANS9BU','N','J',NULL,NULL,''), 
+('ANS9BU019',NULL,'Ansøgning slut - ANS9BU','N','J',NULL,NULL,'Sag afsluttet'), 
+('ANS9BU020',NULL,'Afventer projektændring – ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU021',NULL,'Projektændring modtaget – Tilskud – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU022',NULL,'Afventer projektændring – Udb - ANS9BU','N','J',NULL,NULL,'Afventer tilskudsmodtager'), 
+('ANS9BU023',NULL,'Projektændring modtaget – Udb – ANS9BU','N','J',NULL,NULL,'Anmodning behandles'), 
+('ANS9BU024',NULL,'Inkasso – ANS9BU','N','J',NULL,NULL,'Sag afsluttet')
+Inserted/Update 24 elements. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+DB connection closed.
+PS C:\WINDOWS\system32> cls
+Ordning name is empty
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.56.14.txt
+###############
+CREATING A BACKUP
+###############
+###############
+STARTING UPLOAD
+###############
+Ordning name is empty
+###############
+Set-Activities
+###############
+TAS KONTO 'ANS5002' Already exists.
+TAS KONTO 'ANS5002' Already exists.
+TAS KONTO 'ANS5002' Already exists.
+Created/Updated the following TAS_KONTO:
+ANS9BU002
+ANS5002
+ANS9BU001
+ANS9BU005
+ANS9BU007
+ANS9BU011
+ANS9BU012
+ANS9BU006
+DB connection closed.
+Activity 'ANS9BU027' already exists
+Activity 'ANS9BU041' already exists
+Activity 'DS_JOB_ERR' already exists
+Activity 'GEN002' already exists
+Activity 'Skille' already exists
+Activity 'TIL9004' already exists
+Activity 'TIL9005' already exists
+Inserted 69 new activities:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU024
+ANS9BU025
+ANS9BU026
+ANS9BU027
+ANS9BU028
+ANS9BU029
+ANS9BU030
+ANS9BU031
+ANS9BU032
+ANS9BU033
+ANS9BU034
+ANS9BU035
+ANS9BU036
+ANS9BU037
+ANS9BU038
+ANS9BU039
+ANS9BU040
+ANS9BU041
+ANS9BU042
+ANS9BU043
+ANS9BU044
+ANS9BU045
+ANS9BU046
+ANS9BU047
+ANS9BU048
+ANS9BU050
+ANS9BU051
+ANS9BU052
+ANS9BU054
+ANS9BU055
+ANS9BU056
+ANS9BU057
+ANS9BU058
+ANS9BU059
+ANS9BU060
+ANS9BU061
+ANS9BU062
+ANS9BU063
+ANS9BU064
+ANS9BU065
+ANS9BU066
+ANS9BU067
+ANS9BU068
+ANS9BU069
+ANS9BU070
+ANS9BU66
+ANS9BU67
+
+ Updated 7 activities:
+ANS9BU027
+ANS9BU041
+DS_JOB_ERR
+GEN002
+Skille
+TIL9004
+TIL9005
+DB connection closed.
+Activity 'ANS9BU009' does not have Notification.
+Activity 'ANS9BU011' does not have Notification.
+Activity 'ANS9BU013' does not have Notification.
+Activity 'ANS9BU015' does not have Notification.
+Activity 'ANS9BU018' does not have Notification.
+Activity 'ANS9BU020' does not have Notification.
+Activity 'ANS9BU022' does not have Notification.
+Activity 'ANS9BU026' does not have Notification.
+Activity 'ANS9BU028' does not have Notification.
+Activity 'ANS9BU033' does not have Notification.
+Activity 'ANS9BU040' does not have Notification.
+Activity 'ANS9BU047' does not have Notification.
+Activity 'ANS9BU050' does not have Notification.
+Activity 'ANS9BU052' does not have Notification.
+Activity 'ANS9BU054' does not have Notification.
+Activity 'ANS9BU056' does not have Notification.
+Activity 'ANS9BU058' does not have Notification.
+Activity 'ANS9BU060' does not have Notification.
+Activity 'ANS9BU67' does not have Notification.
+Notification for Activity 'TIL9004' Already exists.
+Notification for Activity 'TIL9005' Already exists.
+Ordning name is empty
+###############
+Set-StatusNeutralActivities
+###############
+The INSERT query has been created.
+Inserted the following status neutral activities:
+Skille
+GEN002
+DS_JOB_ERR
+ANS9BU004
+ANS9BU066
+ANS9BU067
+ANS9BU66
+ANS9BU67
+Ordning name is empty
+###############
+Set-ActivitiesSecurities
+###############
+The INSERT query has been created.
+INSERT INTO AKTIVITET_SECURITY(AKTIVITET_ID,NAME,STATUS,synlig) 
+VALUES(1017,'GODKENDER','E',1), 
+(1017,'PORTAL_USER','E',1), 
+(1017,'SMSAGA','E',1), 
+(1017,'SMSAGF','E',1), 
+(1017,'TAS','I',1), 
+(1018,'GODKENDER','E',1), 
+(1018,'PORTAL_USER','E',1), 
+(1018,'SMSAGA','E',1), 
+(1018,'SMSAGF','E',1), 
+(1018,'TAS','I',1), 
+(1019,'PORTAL_USER','E',1), 
+(1019,'SMSAGA','E',1), 
+(1019,'SMSAGF','E',1), 
+(1019,'TAS','I',1), 
+(1020,'GODKENDER','E',1), 
+(1020,'SEC','E',1), 
+(1020,'SMSAGA','E',1), 
+(1020,'SMSAGF','E',1), 
+(1020,'SUP','E',1), 
+(1020,'TAS','E',1), 
+(1021,'SEC','I',1), 
+(1021,'SMSAGA','E',1), 
+(1021,'SMSAGF','E',1), 
+(1021,'TAS','I',1), 
+(1022,'GODKENDER','E',1), 
+(1022,'PORTAL_USER','E',1), 
+(1022,'SMSAGA','D',1), 
+(1022,'SMSAGF','D',1), 
+(1022,'TAS','I',1), 
+(1023,'GODKENDER','E',1), 
+(1023,'SEC','I',1), 
+(1023,'SMSAGA','E',1), 
+(1023,'SMSAGF','E',1), 
+(1023,'TAS','I',1), 
+(1024,'REGN','E',1), 
+(1024,'SMSAGA','E',1), 
+(1024,'SMSAGF','E',1), 
+(1024,'TAS','I',1), 
+(1025,'CONTROLLER','I',1), 
+(1025,'SEC','I',1), 
+(1025,'SMSAGA','E',1), 
+(1025,'SMSAGF','E',1), 
+(1025,'TAS','I',1), 
+(1026,'PORTAL_USER','E',1), 
+(1026,'SEC','I',1), 
+(1026,'SMSAGA','E',1), 
+(1026,'SMSAGF','D',1), 
+(1026,'SUP','I',1), 
+(1026,'TAS','I',1), 
+(1027,'SEC','I',1), 
+(1027,'SMSAGA','E',1), 
+(1027,'SMSAGF','E',1), 
+(1027,'TAS','I',1), 
+(1028,'PORTAL_USER','E',1), 
+(1028,'SEC','I',1), 
+(1028,'SMSAGA','E',1), 
+(1028,'SMSAGF','E',1), 
+(1028,'TAS','E',1), 
+(1029,'CONTROLLER','I',1), 
+(1029,'SEC','I',1), 
+(1029,'SMSAGA','E',1), 
+(1029,'SMSAGF','E',1), 
+(1029,'TAS','I',1), 
+(1030,'PORTAL_USER','E',1), 
+(1030,'SEC','I',1), 
+(1030,'SMSAGA','E',1), 
+(1030,'SMSAGF','E',1), 
+(1030,'TAS','E',1), 
+(1031,'SEC','I',1), 
+(1031,'SMSAGA','E',1), 
+(1031,'SMSAGF','E',1), 
+(1031,'TAS','I',1), 
+(1032,'SMSAGA','E',1), 
+(1032,'SMSAGF','I',1), 
+(1032,'TAS','I',1), 
+(1033,'SMSAGA','E',1), 
+(1033,'SMSAGF','I',1), 
+(1033,'TAS','I',1), 
+(1034,'GODKENDER','E',1), 
+(1034,'PORTAL_USER','E',1), 
+(1034,'SMSAGA','D',1), 
+(1034,'SMSAGF','D',1), 
+(1034,'TAS','I',1), 
+(1035,'GODKENDER','E',1), 
+(1035,'PORTAL_USER','E',1), 
+(1035,'SMSAGA','E',1), 
+(1035,'SMSAGF','D',1), 
+(1035,'TAS','E',1), 
+(1036,'SMSAGA','E',1), 
+(1036,'SMSAGF','D',1), 
+(1036,'TAS','I',1), 
+(1037,'SEC','I',1), 
+(1037,'SMSAGA','E',1), 
+(1037,'SMSAGF','E',1), 
+(1037,'TAS','I',1), 
+(1038,'GODKENDER','E',1), 
+(1038,'SMSAGA','D',1), 
+(1038,'SMSAGF','D',1), 
+(1038,'TAS','I',1), 
+(1039,'SMSAGA','I',1)
+The INSERT query has been created.
+INSERT INTO AKTIVITET_SECURITY(AKTIVITET_ID,NAME,STATUS,synlig) 
+VALUES(1039,'SMSAGF','I',1), 
+(1039,'TAS','I',1), 
+(1040,'PORTAL_USER','E',1), 
+(1040,'SMSAGA','E',1), 
+(1040,'SMSAGF','E',1), 
+(1040,'TAS','I',1), 
+(1041,'SEC','I',1), 
+(1041,'SMSAGA','E',1), 
+(1041,'SMSAGF','E',1), 
+(1041,'TAS','I',1), 
+(1042,'SEC','I',1), 
+(1042,'SMSAGA','E',1), 
+(1042,'SMSAGF','D',1), 
+(1042,'TAS','I',1), 
+(1043,'SEC','I',1), 
+(1043,'SMSAGA','E',1), 
+(1043,'SMSAGF','E',1), 
+(1043,'TAS','I',1), 
+(1044,'PORTAL_USER','E',1), 
+(1044,'SEC','I',1), 
+(1044,'SMSAGA','E',1), 
+(1044,'SMSAGF','E',1), 
+(1044,'TAS','I',1), 
+(1045,'PORTAL_USER','E',1), 
+(1045,'SMSAGA','E',1), 
+(1045,'SMSAGF','E',1), 
+(1045,'TAS','I',1), 
+(1046,'SMSAGA','E',1), 
+(1046,'SMSAGF','E',1), 
+(1046,'TAS','I',1), 
+(1047,'SMSAGA','E',1), 
+(1047,'SMSAGF','E',1), 
+(1047,'TAS','I',1), 
+(1048,'REVISION','I',1), 
+(1048,'SEC','I',1), 
+(1048,'SMSAGA','E',1), 
+(1048,'SMSAGF','E',1), 
+(1048,'TAS','I',1), 
+(1049,'PORTAL_USER','E',1), 
+(1049,'SEC','I',1), 
+(1049,'SMSAGA','E',1), 
+(1049,'SMSAGF','E',1), 
+(1050,'SEC','I',1), 
+(1050,'SMSAGA','I',1), 
+(1050,'SMSAGF','I',1), 
+(1050,'TAS','I',1), 
+(1051,'CONTROLLER','I',1), 
+(1051,'SMSAGA','E',1), 
+(1051,'SMSAGF','E',1), 
+(1051,'TAS','I',1), 
+(1052,'REVISION','I',1), 
+(1052,'SEC','I',1), 
+(1052,'SMSAGA','E',1), 
+(1052,'SMSAGF','E',1), 
+(1052,'TAS','I',1), 
+(1053,'SEC','I',1), 
+(1053,'SMSAGA','E',1), 
+(1053,'SMSAGF','E',1), 
+(1053,'TAS','I',1), 
+(1054,'GODKENDER','I',1), 
+(1054,'SMSAGA','E',1), 
+(1054,'SMSAGF','I',1), 
+(1054,'TAS','I',1), 
+(1055,'SMSAGA','E',1), 
+(1055,'SMSAGF','I',1), 
+(1055,'TAS','I',1), 
+(1056,'GODKENDER','D',1), 
+(1056,'SMSAGA','E',1), 
+(1056,'SMSAGF','D',1), 
+(1056,'TAS','I',1), 
+(1057,'SEC','I',1), 
+(1057,'SMSAGA','E',1), 
+(1057,'SMSAGF','E',1), 
+(1058,'SMSAGA','E',1), 
+(1058,'SMSAGF','E',1), 
+(1058,'TAS','I',1), 
+(1059,'SMSAGA','E',1), 
+(1059,'SMSAGF','I',1), 
+(1059,'TAS','I',1), 
+(1060,'GODKENDER','E',1), 
+(1060,'PORTAL_USER','E',1), 
+(1060,'SMSAGA','E',1), 
+(1060,'SMSAGF','E',1), 
+(1060,'TAS','I',1), 
+(1061,'SEC','I',1), 
+(1061,'SMSAGA','E',1), 
+(1061,'SMSAGF','I',1), 
+(1061,'TAS','I',1), 
+(1062,'CONTROLLER','I',1), 
+(1062,'GODKENDER','E',1), 
+(1062,'SEC','I',1), 
+(1062,'SMSAGA','I',1), 
+(1062,'SMSAGF','E',1), 
+(1062,'SUP','E',1), 
+(1062,'TAS','E',1), 
+(1063,'PORTAL_USER','E',1), 
+(1063,'SMSAGA','E',1), 
+(1063,'SMSAGF','E',1), 
+(1064,'CONTROLLER','I',1), 
+(1064,'SEC','I',1)
+Activity security permission for ActivityID 159 and name GODKENDER already exists
+Activity security permission for ActivityID 159 and name RAP already exists
+Activity security permission for ActivityID 159 and name REGN already exists
+Activity security permission for ActivityID 159 and name SEC already exists
+Activity security permission for ActivityID 159 and name SMSAGA already exists
+Activity security permission for ActivityID 159 and name SMSAGF already exists
+Activity security permission for ActivityID 159 and name SUP already exists
+Activity security permission for ActivityID 159 and name TAS already exists
+Activity security permission for ActivityID 157 and name GODKENDER already exists
+Activity security permission for ActivityID 157 and name SEC already exists
+Activity security permission for ActivityID 157 and name SMSAGA already exists
+Activity security permission for ActivityID 157 and name SMSAGF already exists
+Activity security permission for ActivityID 157 and name TAS already exists
+Activity security permission for ActivityID 987 and name GODKENDER already exists
+Activity security permission for ActivityID 987 and name PORTAL_USER already exists
+Activity security permission for ActivityID 987 and name SMSAGA already exists
+Activity security permission for ActivityID 987 and name SMSAGF already exists
+Activity security permission for ActivityID 987 and name TAS already exists
+Activity security permission for ActivityID 988 and name GODKENDER already exists
+Activity security permission for ActivityID 988 and name PORTAL_USER already exists
+Activity security permission for ActivityID 988 and name SMSAGA already exists
+Activity security permission for ActivityID 988 and name SMSAGF already exists
+Activity security permission for ActivityID 988 and name TAS already exists
+Ordning name is empty
+###############
+Set-MuligStatus
+###############
+Inserted 24 Status. They are the following:
+ANS9BU001
+ANS9BU002
+ANS9BU003
+ANS9BU004
+ANS9BU005
+ANS9BU006
+ANS9BU007
+ANS9BU008
+ANS9BU009
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU013
+ANS9BU014
+ANS9BU015
+ANS9BU016
+ANS9BU017
+ANS9BU018
+ANS9BU019
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU023
+ANS9BU024
+Activity 'ANS9BU002' already exists
+Activity 'ANS9BU003' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU004' already exists
+Activity 'ANS9BU017' already exists
+Activity 'ANS9BU005' already exists
+Activity 'ANS9BU009' already exists
+Activity 'ANS9BU013' already exists
+Activity 'ANS9BU007' already exists
+Activity 'ANS9BU007' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU017' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU019' already exists
+Activity 'ANS9BU018' already exists
+Activity 'TIL9004' already exists
+Activity 'TIL9005' already exists
+Activity 'ANS9BU010' already exists
+Activity 'ANS9BU011' already exists
+Activity 'ANS9BU012' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU014' already exists
+Activity 'ANS9BU015' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU020' already exists
+Activity 'ANS9BU021' already exists
+Activity 'ANS9BU022' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU034' already exists
+Activity 'ANS9BU024' already exists
+Activity 'ANS9BU025' already exists
+Activity 'ANS9BU026' already exists
+Activity 'ANS9BU045' already exists
+Activity 'ANS9BU017' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU037' already exists
+Activity 'ANS9BU047' already exists
+Activity 'ANS9BU059' already exists
+Activity 'ANS9BU046' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU048' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU015' already exists
+Activity 'ANS9BU017' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU038' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU039' already exists
+Activity 'ANS9BU036' already exists
+Activity 'ANS9BU040' already exists
+Activity 'ANS9BU032' already exists
+Activity 'ANS9BU031' already exists
+Activity 'ANS9BU027' already exists
+Activity 'ANS9BU030' already exists
+Activity 'ANS9BU029' already exists
+Activity 'ANS9BU041' already exists
+Activity 'ANS9BU042' already exists
+Activity 'ANS9BU043' already exists
+Activity 'ANS9BU024' already exists
+Activity 'ANS9BU044' already exists
+Activity 'ANS9BU022' already exists
+Activity 'ANS9BU034' already exists
+Activity 'ANS9BU037' already exists
+Activity 'ANS9BU050' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU033' already exists
+Activity 'ANS9BU052' already exists
+Activity 'ANS9BU030' already exists
+Activity 'ANS9BU029' already exists
+Activity 'ANS9BU038' already exists
+Activity 'ANS9BU059' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU036' already exists
+Activity 'ANS9BU035' already exists
+Activity 'ANS9BU059' already exists
+Activity 'ANS9BU027' already exists
+Activity 'ANS9BU028' already exists
+Activity 'ANS9BU029' already exists
+Activity 'ANS9BU030' already exists
+Activity 'ANS9BU031' already exists
+Activity 'ANS9BU032' already exists
+Activity 'ANS9BU033' already exists
+Activity 'ANS9BU034' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU051' already exists
+Activity 'ANS9BU054' already exists
+Activity 'ANS9BU039' already exists
+Activity 'ANS9BU055' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU057' already exists
+Activity 'ANS9BU058' already exists
+Activity 'ANS9BU020' already exists
+Activity 'ANS9BU036' already exists
+Activity 'ANS9BU022' already exists
+Activity 'ANS9BU021' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU056' already exists
+Activity 'ANS9BU027' already exists
+Activity 'ANS9BU030' already exists
+Activity 'ANS9BU029' already exists
+Activity 'ANS9BU036' already exists
+Activity 'ANS9BU040' already exists
+Activity 'ANS9BU044' already exists
+Activity 'ANS9BU034' already exists
+Activity 'ANS9BU059' already exists
+Activity 'ANS9BU035' already exists
+Activity 'ANS9BU031' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU060' already exists
+Activity 'ANS9BU061' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU062' already exists
+Activity 'ANS9BU063' already exists
+Activity 'ANS9BU064' already exists
+Activity 'ANS9BU016' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU060' already exists
+Activity 'ANS9BU061' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU062' already exists
+Activity 'ANS9BU064' already exists
+Activity 'ANS9BU065' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU008' already exists
+Activity 'ANS9BU036' already exists
+Activity 'ANS9BU027' already exists
+Activity 'ANS9BU028' already exists
+Activity 'ANS9BU034' already exists
+Activity 'ANS9BU040' already exists
+Activity 'ANS9BU044' already exists
+Activity 'ANS9BU056' already exists
+Activity 'ANS9BU032' already exists
+Activity 'ANS9BU002' already exists
+Activity 'ANS9BU035' already exists
+Activity 'ANS9BU031' already exists
+Activity 'ANS9BU068' already exists
+Activity 'ANS9BU069' already exists
+Activity 'ANS9BU069' already exists
+Activity 'ANS9BU070' already exists
+Activity 'ANS9BU070' already exists
+Activity 'ANS9BU006' already exists
+Activity 'ANS9BU001' already exists
+Activity 'ANS9BU007' already exists
+Activity 'ANS9BU013' already exists
+Activity 'ANS9BU017' already exists
+Inserted 161 Activities. They are the following:
+ANS9BU002
+ANS9BU003
+ANS9BU008
+ANS9BU004
+ANS9BU017
+ANS9BU005
+ANS9BU009
+ANS9BU013
+ANS9BU007
+ANS9BU007
+ANS9BU006
+ANS9BU016
+ANS9BU017
+ANS9BU008
+ANS9BU019
+ANS9BU018
+TIL9004
+TIL9005
+ANS9BU010
+ANS9BU011
+ANS9BU012
+ANS9BU008
+ANS9BU016
+ANS9BU014
+ANS9BU015
+ANS9BU008
+ANS9BU006
+ANS9BU020
+ANS9BU021
+ANS9BU022
+ANS9BU016
+ANS9BU008
+ANS9BU034
+ANS9BU024
+ANS9BU025
+ANS9BU026
+ANS9BU045
+ANS9BU017
+ANS9BU008
+ANS9BU037
+ANS9BU047
+ANS9BU059
+ANS9BU046
+ANS9BU006
+ANS9BU008
+ANS9BU048
+ANS9BU016
+ANS9BU015
+ANS9BU017
+ANS9BU008
+ANS9BU038
+ANS9BU016
+ANS9BU008
+ANS9BU039
+ANS9BU036
+ANS9BU040
+ANS9BU032
+ANS9BU031
+ANS9BU027
+ANS9BU030
+ANS9BU029
+ANS9BU041
+ANS9BU042
+ANS9BU043
+ANS9BU024
+ANS9BU044
+ANS9BU022
+ANS9BU034
+ANS9BU037
+ANS9BU050
+ANS9BU008
+ANS9BU006
+ANS9BU033
+ANS9BU052
+ANS9BU030
+ANS9BU029
+ANS9BU038
+ANS9BU059
+ANS9BU008
+ANS9BU006
+ANS9BU036
+ANS9BU035
+ANS9BU059
+ANS9BU027
+ANS9BU028
+ANS9BU029
+ANS9BU030
+ANS9BU031
+ANS9BU032
+ANS9BU033
+ANS9BU034
+ANS9BU016
+ANS9BU008
+ANS9BU051
+ANS9BU054
+ANS9BU039
+ANS9BU055
+ANS9BU006
+ANS9BU008
+ANS9BU057
+ANS9BU058
+ANS9BU020
+ANS9BU036
+ANS9BU022
+ANS9BU021
+ANS9BU006
+ANS9BU008
+ANS9BU056
+ANS9BU027
+ANS9BU030
+ANS9BU029
+ANS9BU036
+ANS9BU040
+ANS9BU044
+ANS9BU034
+ANS9BU059
+ANS9BU035
+ANS9BU031
+ANS9BU016
+ANS9BU008
+ANS9BU060
+ANS9BU061
+ANS9BU016
+ANS9BU008
+ANS9BU062
+ANS9BU063
+ANS9BU064
+ANS9BU016
+ANS9BU008
+ANS9BU060
+ANS9BU061
+ANS9BU006
+ANS9BU008
+ANS9BU062
+ANS9BU064
+ANS9BU065
+ANS9BU006
+ANS9BU008
+ANS9BU006
+ANS9BU008
+ANS9BU036
+ANS9BU027
+ANS9BU028
+ANS9BU034
+ANS9BU040
+ANS9BU044
+ANS9BU056
+ANS9BU032
+ANS9BU002
+ANS9BU035
+ANS9BU031
+ANS9BU068
+ANS9BU069
+ANS9BU069
+ANS9BU070
+ANS9BU070
+ANS9BU006
+ANS9BU001
+ANS9BU007
+ANS9BU013
+ANS9BU017
+Transcript stopped, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Flyt Regelsæt og Ordning - final\LogFiles\logFile-SET.2022-11-01.12.56.14.txt

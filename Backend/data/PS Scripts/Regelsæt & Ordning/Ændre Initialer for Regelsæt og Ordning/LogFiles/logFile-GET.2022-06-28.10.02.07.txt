@@ -1,0 +1,49 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220628100207
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 34060
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-06-28.10.02.07.txt
+Regelsæt name is empty
+Regelsæt name is empty
+Regelsæt name is empty
+Regelsæt name is empty
+Regelsæt name is empty
+Regelsæt name is empty
+###############
+Get-SchemaSettings
+###############
+SQL connection is successufull
+Query executed
+
+ Retrieved Schema settings
+Data Sync - TEST006
+Data Sync - TEST011
+Data Sync - TEST022
+SUF - Ansøgning - TEST001
+SUF - Ansøgning - TEST005
+SUF - Tjekliste ansøgning - TEST003
+SUF - Tjekliste ansøgning - TEST003
+SUF - Tjekliste ansøgning - TEST003
+SUF - Tjekliste udbetaling - TEST028
+SUF - Tjekliste udbetaling - TEST028
+SUF - Tjekliste udbetaling - TEST028
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Number of rows : 11
+**********************
+Windows PowerShell transcript end
+End time: 20220628100211
+**********************

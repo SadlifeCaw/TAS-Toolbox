@@ -1,0 +1,439 @@
+﻿[
+    {
+        "topic":  "Andet",
+        "script":  "Indæt institutioner",
+        "configPath":  "Andet/Indæt institutioner",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "CU4004_FST_TAS_TEST # Database name"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQLT01\\CU4004 # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Andet",
+        "script":  "Notifikation ved fejlende journalisering",
+        "configPath":  "Andet/Notifikation ved fejlende journalisering",
+        "variables":  [
+                          {
+                              "name":  "$Database",
+                              "type":  "string",
+                              "example":  "CU2303_ENS_TAS_TEST"
+                          },
+                          {
+                              "name":  "$SqlServer",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQLT01\\CU2303"
+                          },
+                          {
+                              "name":  "$StoredProcedureName",
+                              "type":  "string",
+                              "example":  "sp_indsendNotifikation"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Andet",
+        "script":  "VisioBridge",
+        "configPath":  "Andet/VisioBridge",
+        "variables":  {
+                          "name":  "$FilePath",
+                          "type":  "string",
+                          "example":  "C:\\Users\\Casper.Skourup\\Downloads\\VisioTest.vsdx"
+                      }
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Flyt Regelsæt og Ordning - TAS 10.0",
+        "configPath":  "Regelsæt \u0026 Ordning/Flyt Regelsæt og Ordning - TAS 10.0",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TAS_STANDARD_100_TEST # Database name"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  "FPL #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  "Forsøgsvindmøller på Land - FPL # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-DB-2019 # Data source"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Flyt Regelsæt og Ordning - TAS 9.0",
+        "configPath":  "Regelsæt \u0026 Ordning/Flyt Regelsæt og Ordning - TAS 9.0",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TAS_KONS_10 # Database name"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  "INVKF #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  " # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-sql-kons # Data source"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "SBST - enkelte opsætninger",
+        "configPath":  "Regelsæt \u0026 Ordning/SBST - enkelte opsætninger",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TASProdDB # Database name"
+                          },
+                          {
+                              "name":  "$list_regelsaet",
+                              "type":  "array",
+                              "example":  "@(Ansøgningsrunder og Løse ansøgninger T5)"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  "MASTER1 #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$ordning_forsystem_ids",
+                              "type":  "array",
+                              "example":  "@(1471746,1471747)"
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  " # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "bsm-sos-sql01p\\TASPROD # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Slet alle data sync",
+        "configPath":  "Regelsæt \u0026 Ordning/Slet alle data sync",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TASTestDB # Database name"
+                          },
+                          {
+                              "name":  "$list_regelsaet",
+                              "type":  "array",
+                              "example":  "@(Udbetalingssager T5,Ansøgningsrunder og Løse ansøgninger T5)"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  " #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  " # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "BSMSOSSQL01T.prod.sitad.dk\\TASTest # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "SOS - enkelte opsætning til alle ordninger",
+        "configPath":  "Regelsæt \u0026 Ordning/SOS - enkelte opsætning til alle ordninger",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TASTestDB # Database name"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  " #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$ordning_forsystem_ids",
+                              "type":  "string",
+                              "example":  "@(1519882"
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  " # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "BSMSOSSQL01T.prod.sitad.dk\\TASTest # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Regelsæt \u0026 Ordning",
+        "script":  "Ændre Initialer for Regelsæt og Ordning",
+        "configPath":  "Regelsæt \u0026 Ordning/Ændre Initialer for Regelsæt og Ordning",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TASTestDB3_MASTER # Database name"
+                          },
+                          {
+                              "name":  "$InitialFra",
+                              "type":  "string",
+                              "example":  "ANS9 #Det initial der ændres fra"
+                          },
+                          {
+                              "name":  "$InitialTil",
+                              "type":  "string",
+                              "example":  "ANS9BU #Det initial der ændres til"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  " #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  "Ansøgningsrunder og Løse ansøgninger T9 # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "tas-db-2019 # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Skema",
+        "script":  "Flyt Skema(er)",
+        "configPath":  "Skema/Flyt Skema(er)",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "CU2823_STAR_TAS_Test # Database name"
+                          },
+                          {
+                              "name":  "$frontSystemIds",
+                              "type":  "array",
+                              "example":  "@(226, 224, 223)"
+                          },
+                          {
+                              "name":  "$source",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQL01 # Data source"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Skema",
+        "script":  "Flyt Skema(er)  v2",
+        "configPath":  "Skema/Flyt Skema(er)  v2",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "CU2303_ENS_TAS_TEST # Database name"
+                          },
+                          {
+                              "name":  "$frontSystemIds",
+                              "type":  "array",
+                              "example":  "@(226, 224, 223)"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQLT01\\CU2303 # Data source"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Skema",
+        "script":  "Flyt Skema(er) via Visningsgruppe v2",
+        "configPath":  "Skema/Flyt Skema(er) via Visningsgruppe v2",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "CU4004_FST_TAS_TEST # Database name"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQLT01\\CU4004 # Data source"
+                          },
+                          {
+                              "name":  "$ViewGroup",
+                              "type":  "string",
+                              "example":  "@(SB - Udbetaling) # The name of the ViewGroup you want to retrieve/create/transfer."
+                          }
+                      ]
+    },
+    {
+        "topic":  "Skema",
+        "script":  "Flyt SkemaSikkerhed",
+        "configPath":  "Skema/Flyt SkemaSikkerhed",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "FST_82_TIL_91_PREPROD_TEST # Database name"
+                          },
+                          {
+                              "name":  "$frontSystemIds",
+                              "type":  "array",
+                              "example":  "@(502)"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "tas-db # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Skema",
+        "script":  "Opret nye skemaer med visningsgruppe",
+        "configPath":  "Skema/Opret nye skemaer med visningsgruppe",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TAS_STANDARD_MASTER_CM_TOOL_FROM # Database name"
+                          },
+                          {
+                              "name":  "$frontSystemIds",
+                              "type":  "array",
+                              "example":  "@(454,541,529,637,543,499,504,512,459,514)"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-DB-2019 # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Word",
+        "script":  "Flyt Wordopsætning",
+        "configPath":  "Word/Flyt Wordopsætning",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "CU2303_ENS_TAS_TEST # Database name"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  "GRL"
+                          },
+                          {
+                              "name":  "$projektType",
+                              "type":  "string",
+                              "example":  "GRL # If the word settings is for ALL project types, then the variable should be empty ."
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "TAS-SHS-SQLT01\\CU2303 # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Word",
+        "script":  "SOS - specifikke wordopsætning",
+        "configPath":  "Word/SOS - specifikke wordopsætning",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TAS_STANDARD_91_TEST # Database name"
+                          },
+                          {
+                              "name":  "$list_doc_ids",
+                              "type":  "array",
+                              "example":  "@(4233)"
+                          },
+                          {
+                              "name":  "$projektType",
+                              "type":  "string",
+                              "example":  " # If the word settings is for ALL project types, then the variable should be empty ."
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "tas-db-2019 # Data server"
+                          }
+                      ]
+    },
+    {
+        "topic":  "Word",
+        "script":  "SOS - wordopsætning per aktivitet",
+        "configPath":  "Word/SOS - wordopsætning per aktivitet",
+        "variables":  [
+                          {
+                              "name":  "$db",
+                              "type":  "string",
+                              "example":  "TAS_STANDARD_82_TEST # Database name"
+                          },
+                          {
+                              "name":  "$ordning",
+                              "type":  "string",
+                              "example":  "XNEALTRANS #Ordningen du vil arbejde med."
+                          },
+                          {
+                              "name":  "$RegelsætName",
+                              "type":  "string",
+                              "example":  " # The name of the regelsæt you want to transfer"
+                          },
+                          {
+                              "name":  "$server",
+                              "type":  "string",
+                              "example":  "tas-db.internal.formpipe.se # Data server"
+                          },
+                          {
+                              "name":  "$Status_initials",
+                              "type":  "string",
+                              "example":  " #Initials for the status you want to transfer. Try to make sure the initial doesnt overlab with others. Fx. BY and BYP. The SQL query will get both."
+                          }
+                      ]
+    }
+]

@@ -1,0 +1,133 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220628092741
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 34060
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-06-28.09.27.40.txt
+Ordning name is empty
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+PYR000 - Ny sag - PYR
+PYR001 - Indsendt - PYR
+PYR002 - Klar til SB - PYR
+PYR004 - Projektafslag - PYR
+PYR005 - Vurderet - PYR
+PYR007 - I gang - PYR
+PYR011 - Sag slut - PYR
+PYR013 - Projektaftaledokumenter - PYR
+PYR014 - Projekt under afslutning - PYR
+PYR016 - Direkte afslag - PYR
+PYR018 - Tilsagn ikke accepteret - PYR
+PYR020 - Ansøgning trukket tilbage - PYR
+PYR022 - Afv godk. af tjekliste - udb. - PYR
+PYR024 - Afv godk. af tjekliste - spct - PYR
+PYR025 - Afv godk. af tjekliste - udb. slut - PYR
+XAL - Fejl i overførsel til Navision
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 16 Status'
+SQL connection Closed
+Ordning name is empty
+###############
+Get-Activities
+###############
+PS>TerminatingError(ForEach-Object): "Method invocation failed because [System.DBNull] does not contain a method named 'Replace'."
+C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regels
+æt og Ordning\Get-Scripts\Get-Activities - v2.ps1 : Method invocation failed because [System.DBNull] does not contain a 
+method named 'Replace'.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Reg
+elsæt og Ordning\1. RETRIEVE ALL DATA AT ONCE - v2.ps1:27 char:5
++     . "$path\Get-Scripts\Get-Activities - v2.ps1"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Get-Activities - v2.ps1
+C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\Get-Scripts\Get-Activities - v2.ps1 : Method invocation failed because [System.DBNull] does not contain a method named 'Replace'.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\1. RETRIEVE ALL DATA AT ONCE - v2.ps1:27 char:5
++     . "$path\Get-Scripts\Get-Activities - v2.ps1"
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Write-Error], WriteErrorException
+    + FullyQualifiedErrorId : Microsoft.PowerShell.Commands.WriteErrorException,Get-Activities - v2.ps1
+
+Ordning name is empty
+###############
+Get-StatusNeuralActivities
+###############
+SQL connection is successufull
+Query executed
+Retrieved 6 Status neutral activities
+DS_JOB_ERR
+PYR005
+PYR061
+PYR062
+PYR063
+PYR064
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+SQL connection Closed
+Ordning name is empty
+###############
+Get-ActivitySecurities
+###############
+SQL connection is successufull
+Query executed
+Output Template in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved Security permission
+DS_JOB_ERR PORTAL_USER
+DS_JOB_ERR Sagsbehand
+DS_JOB_ERR TAS
+3 Security Permissions
+SQL connection Closed
+Ordning name is empty
+###############
+Get-MuligStatus
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+PYR000
+PYR001
+PYR002
+PYR004
+PYR005
+PYR007
+PYR011
+PYR013
+PYR014
+PYR016
+PYR018
+PYR020
+PYR022
+PYR024
+PYR025
+XAL
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+16 Status'
+Query executed
+PS>TerminatingError(ForEach-Object): "You cannot call a method on a null-valued expression."
+foreach : You cannot call a method on a null-valued expression.
+At C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\Get-Scripts\Get-MuligStatus - v2.ps1:65 char:23
++             $result | foreach {
++                       ~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [ForEach-Object], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull,Microsoft.PowerShell.Commands.ForEachObjectCommand
+
+Ordning name is empty
+**********************
+Windows PowerShell transcript end
+End time: 20220628092758
+**********************

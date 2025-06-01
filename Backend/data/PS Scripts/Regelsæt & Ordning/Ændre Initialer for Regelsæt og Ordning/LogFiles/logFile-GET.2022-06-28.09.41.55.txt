@@ -1,0 +1,49 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220628094155
+Username: FORMPIPE\Nevethan.Alagaratnam
+RunAs User: FORMPIPE\Nevethan.Alagaratnam
+Configuration Name: 
+Machine: FP-BB-NEAL (Microsoft Windows NT 10.0.19042.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 34060
+PSVersion: 5.1.19041.1320
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1320
+BuildVersion: 10.0.19041.1320
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning\LogFiles\logFile-GET.2022-06-28.09.41.55.txt
+Ordning name is empty
+###############
+Get-Status
+###############
+SQL connection is successufull
+Query executed
+Retrieved Status
+TEST000 - Ny sag - TEST
+TEST001 - Indsendt - TEST
+TEST002 - Klar til SB - TEST
+TEST004 - Projektafslag - TEST
+TEST005 - Vurderet - TEST
+TEST007 - I gang - TEST
+TEST011 - Sag slut - TEST
+TEST013 - Projektaftaledokumenter - TEST
+TEST014 - Projekt under afslutning - TEST
+TEST016 - Direkte afslag - TEST
+TEST018 - Tilsagn ikke accepteret - TEST
+TEST020 - Ansøgning trukket tilbage - TEST
+TEST022 - Afv godk. af tjekliste - udb. - TEST
+TEST024 - Afv godk. af tjekliste - spct - TEST
+TEST025 - Afv godk. af tjekliste - udb. slut - TEST
+XAL - Fejl i overførsel til Navision
+Output exported in the given path C:\Users\nevethan.alagaratnam\OneDrive - Formpipe Software AB\Skrivbordet\PS scripts\Generalt\Ændre Initialer for Regelsæt og Ordning
+Retrieved 16 Status'
+SQL connection Closed
+**********************
+Windows PowerShell transcript end
+End time: 20220628094156
+**********************

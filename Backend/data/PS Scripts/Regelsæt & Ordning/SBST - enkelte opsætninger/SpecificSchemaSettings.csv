@@ -1,0 +1,3 @@
+﻿"TEKST","ORDNING","AKTIVITET_ID","LUK_AKTIVITET_ID","ORDNING_FORSYSTEM_ID","GENAABEN_AKTIVITET_ID","IsPublic","PARM","OBJEKT","NextActivityId","ApproveActivity","NumberOfRespiteDays","CaseLogState","ActionOnCompletion"
+"Data Sync","MASTER1","ANS5012","","1471746","","False","EMPTY_JOB","nv_DataSync","ANS5027","False","-21","A","0"
+"Data Sync","MASTER1","ANS5015","","1471747","","False","EMPTY_JOB","nv_DataSync","ANS5025","False","-21","A","0"
